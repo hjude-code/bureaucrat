@@ -29,3 +29,10 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+IBM Plex Mono Font
+Copyright 2017 IBM Corp. All rights reserved. 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
+License URL: http://scripts.sil.org/OFL 
+Source: http://www.boldmonday.com
+-- End of IBM Plex Mono Font credits --

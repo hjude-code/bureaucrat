@@ -103,9 +103,138 @@
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
+					"fontFace": [
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_italic_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_italic_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_italic_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_italic_100.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_normal_100.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_italic_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_italic_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_italic_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_italic_100.ttf"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono_normal_100.ttf"
+							]
+						}
+					],
+					"fontFamily": "IBM Plex Mono",
+					"slug": "ibm-plex-mono"
 				}
 			]
 		},
@@ -193,6 +322,19 @@
 					"typography": {
 						"fontStyle": "italic"
 					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
 				}
 			},
 			"link": {
@@ -200,6 +342,9 @@
 					"typography": {
 						"fontStyle": "italic"
 					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
 				}
 			}
 		},
@@ -216,6 +361,11 @@
 				"right": "var(--wp--preset--spacing--20)",
 				"top": "var(--wp--preset--spacing--20)"
 			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)",
+			"fontStyle": "normal",
+			"fontWeight": "400"
 		}
 	},
 	"templateParts": [
