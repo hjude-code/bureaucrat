@@ -1,9 +1,30 @@
 <?php
 
+function hjudesite_block_styles() {
+    register_block_style(
+        'core/cover',
+        array(
+            'name'=> 'feature',
+            'label'=> __( 'feature', 'bureaucrat' ),
+        )
+    );
+}
+
+add_action( 'init', 'hjudesite_block_styles' );
+
+
 function bureaucrat_block_scripts(){
     wp_enqueue_script(
 		'navigation-spacing',
 		get_parent_theme_file_uri( 'assets/scripts/navigation-spacing.js' ),
+		array(),
+		'1.0',
+		true
+	);
+
+    wp_enqueue_script(
+		'cover-hero',
+		get_parent_theme_file_uri( 'assets/scripts/cover-hero.js' ),
 		array(),
 		'1.0',
 		true
@@ -61,6 +82,16 @@ function bureaucrat_block_stylesheets() {
             'src'    => get_parent_theme_file_uri( 'assets/css/group.css' ),
             'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
             'path'   => get_parent_theme_file_path( 'assets/css/group.css' ),
+        )
+    ); 
+
+    wp_enqueue_block_style(
+        'core/cover',
+        array(
+            'handle' => 'bureaucrat-cover-style',
+            'src'    => get_parent_theme_file_uri( 'assets/css/cover.css' ),
+            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
+            'path'   => get_parent_theme_file_path( 'assets/css/cover.css' ),
         )
     ); 
 
