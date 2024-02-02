@@ -1,0 +1,36 @@
+/* .wp-block-columns .wp-block-column{
+   outline-color: var(--wp--custom--border--color);
+   outline-width: var(--wp--custom--border--width);
+   outline-style: var(--wp--custom--border--style);
+} */
+
+.wp-block-column.is-vertically-aligned-top{
+    position: sticky !important;
+    top:0px;
+}
+
+
+/*Remove padding from*/
+.wp-block-column > :is(
+    .wp-block-group,
+    .wp-block-navigation
+){
+    padding: 0px;
+}
+
+/*expand to full width*/
+.wp-block-column>:is(
+    .wp-block-cover,
+    .wp-block-separator.is-style-wide
+):not(:only-child){
+    margin-left:calc(var(--wp--preset--spacing--20)*-1) !important;
+    margin-right:calc(var(--wp--preset--spacing--20)*-1) !important;
+}
+
+/*remove column padding*/
+.wp-block-column:has(:is(
+    .wp-block-cover
+):only-child
+){
+    padding: 0px !important;
+}

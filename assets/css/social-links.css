@@ -1,0 +1,7 @@
+.wp-block-social-links.is-vertical{
+    align-items: stretch;
+}
+
+.wp-social-link:hover{
+    transform: none;
+}
