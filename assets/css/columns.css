@@ -6,7 +6,7 @@
 
 .wp-block-column.is-vertically-aligned-top{
     position: sticky !important;
-    top:0px;
+    top:var(--wp--custom--sticky-top);
 }
 
 

@@ -1,5 +1,18 @@
 <?php
 
+function bureaucrat_block_scripts(){
+    wp_enqueue_script(
+		'navigation-spacing',
+		get_parent_theme_file_uri( 'assets/scripts/navigation-spacing.js' ),
+		array(),
+		'1.0',
+		true
+	);
+}
+add_action('wp_enqueue_scripts','bureaucrat_block_scripts');
+
+
+
 function bureaucrat_block_stylesheets() {
     wp_enqueue_block_style(
                 'core/columns',
@@ -38,6 +51,16 @@ function bureaucrat_block_stylesheets() {
             'src'    => get_parent_theme_file_uri( 'assets/css/social-links.css' ),
             'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
             'path'   => get_parent_theme_file_path( 'assets/css/social-links.css' ),
+        )
+    ); 
+
+    wp_enqueue_block_style(
+        'core/group',
+        array(
+            'handle' => 'bureaucrat-group-style',
+            'src'    => get_parent_theme_file_uri( 'assets/css/group.css' ),
+            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
+            'path'   => get_parent_theme_file_path( 'assets/css/group.css' ),
         )
     ); 
 

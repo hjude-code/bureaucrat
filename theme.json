@@ -52,7 +52,8 @@
 				"soffset": "-1px",
 				"style": "solid",
 				"width": "2px"
-			}
+			},
+			"sticky-top": "0px"
 		},
 		"layout": {
 			"contentSize": "620px",
@@ -101,6 +102,7 @@
 			]
 		},
 		"typography": {
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -236,7 +238,49 @@
 					"fontFamily": "IBM Plex Mono",
 					"slug": "ibm-plex-mono"
 				}
-			]
+			],
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "Small",
+					"size": "0.9rem",
+					"slug": "small"
+				},
+				{
+					"fluid": false,
+					"name": "Medium",
+					"size": "1.05rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "1.85rem",
+						"min": "1.39rem"
+					},
+					"name": "Large",
+					"size": "1.85rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2.5rem",
+						"min": "1.85rem"
+					},
+					"name": "Extra Large",
+					"size": "2.5rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "3.27rem",
+						"min": "2.5rem"
+					},
+					"name": "Extra Extra Large",
+					"size": "3.27rem",
+					"slug": "xx-large"
+				}
+			],
+			"writingMode": true
 		},
 		"useRootPaddingAwareAlignments": true
 	},
@@ -344,7 +388,8 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
+					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)",
+					"textDecoration": "none"
 				}
 			}
 		},
