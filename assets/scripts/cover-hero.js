@@ -10,6 +10,8 @@ column.classList.add('pointerColumn', "pointerGrid");
 const row = document.createElement('span');
 row.classList.add('pointerRow', "pointerGrid");
 
+
+
 function crosshairs(m){
     let xPos = m.x;
     let yPos = m.y;
@@ -19,8 +21,12 @@ function crosshairs(m){
 
 Features.forEach((feature)=>{
 
-    feature.appendChild(column);
-    feature.appendChild(row);
+    for(let i=0; i<7; i++){
+        let gridTile = document.createElement('div');
+        gridTile.classList.add('gridTile');
+        feature.appendChild(gridTile);
+    }
 
-    feature.addEventListener('mousemove', crosshairs);
+
+    // feature.addEventListener('mousemove', crosshairs);
 })
