@@ -11,14 +11,6 @@ const row = document.createElement('span');
 row.classList.add('pointerRow', "pointerGrid");
 
 
-
-function crosshairs(m){
-    let xPos = m.x;
-    let yPos = m.y;
-    bdy.style.setProperty('--pointerGridX', `${xPos}px`);
-    bdy.style.setProperty('--pointerGridY', `${yPos}px`);
-}
-
 Features.forEach((feature)=>{
 
     for(let i=0; i<7; i++){
@@ -26,7 +18,30 @@ Features.forEach((feature)=>{
         gridTile.classList.add('gridTile');
         feature.appendChild(gridTile);
     }
+});
 
+let CoverOptions = {
+    root: document.querySelector("#scrollArea"),
+    rootMargin: "0px",
+    threshold: 0.80,
+  };
+  
+let CoverCallBack = (entries, observer) => {
+entries.forEach((entry) => {
+    if(entry.isIntersecting){
+       entry.target.classList.add('cover-in');
+       let video = entry.target.querySelector('video');
+        video.play();
+    }else{
+        entry.target.classList.remove('cover-in');
+        let video = entry.target.querySelector('video');
+        video.pause();
+    }
+});
+};
 
-    // feature.addEventListener('mousemove', crosshairs);
+let CoverObserver = new IntersectionObserver(CoverCallBack, CoverOptions);
+
+Features.forEach((cover)=>{
+    CoverObserver.observe(cover);
 })

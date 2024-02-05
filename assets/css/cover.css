@@ -81,8 +81,8 @@ display: none !important;
 
 }
 
-.wp-block-cover.is-style-feature:hover :is(.wp-block-cover__inner-container, .gridTile)::before{
-    inset: 100% 0% 0% 0%;
+.wp-block-cover.is-style-feature.cover-in :is(.wp-block-cover__inner-container, .gridTile)::before{
+    inset: 0% 0% 0% 100%;
 }
 
 
