@@ -9,6 +9,8 @@
     grid-row-gap:var(--wp--custom--border--width);
     grid-column-gap:var(--wp--custom--border--width);
     overflow:hidden;
+    container-name:featureCover;
+    container-type: inline-size;
 }
 
 .wp-block-cover.is-style-feature .wp-block-cover__inner-container{
@@ -98,4 +100,28 @@ display: none !important;
     ):last-child
 ){
     padding-bottom: 0px;
+}
+
+
+@media (max-width:600px){
+    .wp-block-cover.wp-block-cover.is-style-feature{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+    }
+    .wp-block-cover.wp-block-cover.is-style-feature .wp-block-cover__inner-container{
+        grid-column: 1/span 1 !important;
+        position: sticky;
+        top:0px;
+
+    }
+}
+
+@container featureCover (max-width:600px){
+    .wp-block-cover{
+        display: block !important;
+    }
+
+    .gridTile:not(:first-of-type, :last-of-type){
+        display: none !important;
+    }
 }
