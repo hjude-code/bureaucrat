@@ -79,34 +79,172 @@
 <!-- /wp:cover -->
 
 <!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
+<h2 class="wp-block-heading">Who I am</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns {"verticalAlignment":null} -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:heading -->
+<h2 class="wp-block-heading">I’m Harrison Jude</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">A graphic Designer and Creative Developer</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>As a creative developer, I don’t just solve problems, I craft visual solutions. I build systems that are as beautiful as they are effective.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I’m not afraid to say “I don’t know.” In fact, I embrace it. It’s the gateway to the unknown, the spark of curiosity that ignites insight, fuels creation, and uncovers solutions.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:image {"id":109,"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-peakaboo"} -->
+<figure class="wp-block-image size-large is-style-peakaboo"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/headshot_me_peak-1024x606.webp" alt="" class="wp-image-109" style="object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
+<h2 class="wp-block-heading">What I do</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"100%"} -->
+<div class="wp-block-column" style="flex-basis:100%"><!-- wp:heading -->
+<h2 class="wp-block-heading">Design that does more than just look good,<br>Design that works.</h2>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">From Conception</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
 <p>I’m not afraid to say “I don’t know.” In fact, I embrace it. It’s the gateway to the unknown, the spark of curiosity that ignites insight, fuels creation, and uncovers solutions.</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">From Conception</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I’m not afraid to say “I don’t know.” In fact, I embrace it. It’s the gateway to the unknown, the spark of curiosity that ignites insight, fuels creation, and uncovers solutions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">From Conception</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I’m not afraid to say “I don’t know.” In fact, I embrace it. It’s the gateway to the unknown, the spark of curiosity that ignites insight, fuels creation, and uncovers solutions.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">From Conception</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I’m not afraid to say “I don’t know.” In fact, I embrace it. It’s the gateway to the unknown, the spark of curiosity that ignites insight, fuels creation, and uncovers solutions.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
+<h2 class="wp-block-heading">How I do it</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"33.34%"} -->
+<div class="wp-block-column" style="flex-basis:33.34%"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">From Conception</h3>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
 
 <!-- wp:paragraph -->
 <p>As a creative developer, I don’t just solve problems, I craft visual solutions. I build systems that are as beautiful as they are effective.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":109,"sizeSlug":"large","linkDestination":"none","className":"is-style-peakaboo"} -->
-<figure class="wp-block-image size-large is-style-peakaboo"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/headshot_me_peak-1024x606.webp" alt="" class="wp-image-109"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:column {"width":"33.34%"} -->
+<div class="wp-block-column" style="flex-basis:33.34%"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">From Conception</h3>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:paragraph -->
+<p>I’m not afraid to say “I don’t know.” In fact, I embrace it. It’s the gateway to the unknown, the spark of curiosity that ignites insight, fuels creation, and uncovers solutions.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">From Conception</h3>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:paragraph -->
+<p>I’m not afraid to say “I don’t know.” In fact, I embrace it. It’s the gateway to the unknown, the spark of curiosity that ignites insight, fuels creation, and uncovers solutions.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-columns" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"25%","backgroundColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-background-color has-background" style="flex-basis:25%"><!-- wp:heading -->
+<div class="wp-block-columns" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
 <h2 class="wp-block-heading">Where I've been</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"75%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:75%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":1} -->
+<!-- wp:column {"width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
+<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Adweek</h1>
 <!-- /wp:heading -->
 
@@ -127,192 +265,50 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
+<!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
 <p>Role</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>years</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>Role</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
+<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
 <p>years</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">SKDK</h1>
-<!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><strong>Public affairs and political consulting firm</strong></h3>
-<!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:paragraph -->
-<p>At SKDK, I honed my skills in crafting impactful marketing assets across digital and print mediums for esteemed clients like the United Auto Workers Union and The Carnegie Medal of Philanthropy. Working alongside my art director, I designed engaging content for social media campaigns. Additionally, I conceptualized and designed event space branding, print ads, and billboards that effectively communicated clients’ messages to their target audiences. This experience solidified my ability to adapt my creative approach to diverse stakeholders and deliver results-driven marketing solutions.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>Role</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>years</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>Role</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>years</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">Adweek</h1>
-<!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">subhead</h3>
-<!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:paragraph -->
-<p>In my role at Adweek, I have continuously improved creative events team processes to enable more efficient and effective work. In addition to designing motion graphics and building event sites, I have developed centralized storage systems and shared asset libraries, created effect presets and motion graphics templates, and laid the groundwork for an Adweek design system. These initiatives have saved time, ensured consistency, and empowered team members of all skill levels to produce high-quality work. I am passionate about working smarter, not harder, and I am eager to bring this ethos to my next role.</p>
-<!-- /wp:paragraph --></div>
+<!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<div class="wp-block-columns" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"20%","backgroundColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-background-color has-background" style="flex-basis:20%"><!-- wp:heading -->
+<h2 class="wp-block-heading">When we can talk</h2>
+<!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
+<!-- wp:column {"width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
+<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">There's no time like the present</h1>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
+<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
 <p>Role</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>years</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>Role</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>years</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">Adweek</h1>
-<!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">subhead</h3>
-<!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:paragraph -->
-<p>In my role at Adweek, I have continuously improved creative events team processes to enable more efficient and effective work. In addition to designing motion graphics and building event sites, I have developed centralized storage systems and shared asset libraries, created effect presets and motion graphics templates, and laid the groundwork for an Adweek design system. These initiatives have saved time, ensured consistency, and empowered team members of all skill levels to produce high-quality work. I am passionate about working smarter, not harder, and I am eager to bring this ethos to my next role.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>Role</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>years</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
-<p>Role</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:paragraph -->
+<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
 <p>years</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
