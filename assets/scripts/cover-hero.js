@@ -23,7 +23,7 @@ Features.forEach((feature)=>{
 let CoverOptions = {
     root: document.querySelector("#scrollArea"),
     rootMargin: "0px",
-    threshold: 0.80,
+    threshold: 0.40,
   };
   
 let CoverCallBack = (entries, observer) => {

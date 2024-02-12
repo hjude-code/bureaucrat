@@ -1,0 +1,5 @@
+.wp-block-query.is-layout-flow .wp-block-post{
+    border-bottom-width: var(--wp--custom--border--width);
+    border-bottom-style: var(--wp--custom--border--style);
+    border-bottom-color: var(--wp--custom--border--color);
+}

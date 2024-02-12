@@ -262,21 +262,13 @@
 					"slug": "large"
 				},
 				{
-					"fluid": {
-						"max": "2.5rem",
-						"min": "1.85rem"
-					},
 					"name": "Extra Large",
-					"size": "2.5rem",
+					"size": "clamp(1rem, 5vw, 4rem)",
 					"slug": "x-large"
 				},
 				{
-					"fluid": {
-						"max": "3.27rem",
-						"min": "2.5rem"
-					},
 					"name": "Extra Extra Large",
-					"size": "3.27rem",
+					"size": "clamp(3.5rem, 7.5vw, 7rem)",
 					"slug": "xx-large"
 				}
 			],
