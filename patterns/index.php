@@ -6,12 +6,19 @@
  * Inserter: no
  */
 ?>
-<!-- wp:hjude/character-shift {"style":{"typography":{"fontSize":"5rem"}},"backgroundColor":"accent-3"} /-->
+<!-- wp:hjude/character-shift {"textCopy":"Hey there you, lets do something remarkable together!","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","fontSize":"xx-large"} /-->
 
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
-<!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:social-links {"openInNewTab":true,"size":"has-normal-icon-size","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"className":"is-style-logos-only","layout":{"type":"flex","orientation":"horizontal","justifyContent":"right","flexWrap":"wrap"}} -->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:site-tagline {"fontSize":"medium"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:social-links {"openInNewTab":true,"size":"has-normal-icon-size","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"className":"is-style-logos-only","layout":{"type":"flex","orientation":"horizontal","justifyContent":"right","flexWrap":"wrap"}} -->
 <ul class="wp-block-social-links has-normal-icon-size is-style-logos-only"><!-- wp:social-link {"url":"#","service":"instagram","label":"Instagram"} /-->
 
 <!-- wp:social-link {"url":"#","service":"github"} /-->
@@ -24,55 +31,40 @@
 
 <!-- wp:social-link {"url":"#","service":"codepen"} /--></ul>
 <!-- /wp:social-links --></div>
-<!-- /wp:group -->
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm","id":112,"dimRatio":50,"overlayColor":"contrast","isUserOverlayColor":true,"backgroundType":"video","minHeight":75,"minHeightUnit":"vh","contentPosition":"center left","isDark":false,"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"className":"is-style-feature","layout":{"type":"default"}} -->
-<div class="wp-block-cover is-light has-custom-content-position is-position-center-left is-style-feature" style="min-height:75vh"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"left","placeholder":"Write title…","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"large"} -->
-<p class="has-text-align-left has-contrast-color has-text-color has-link-color has-large-font-size">This is Mediaweek</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<p style="margin-top:0;margin-bottom:0">A Blackletter font inspired by the brand’s primary font, Flama, to function as one of the primary visual elements for the 2022 Mediaweek event branding. The font’s dynamic design ensures effortless stretching and transformation in motion creating a fluid transition between the base Flama and blackletter characters and allowing it to adapt to fit a…</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"textAlign":"left","width":100,"style":{"border":{"width":"1px","color":"#cf2e2e","radius":"0px"}}} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-border-color has-text-align-left wp-element-button" style="border-color:#cf2e2e;border-width:1px;border-radius:0px">Learn More</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div></div>
+<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm","id":119,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":100,"minHeightUnit":"vh","isDark":false,"className":"is-style-default","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-light is-style-default" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+<p class="has-text-align-center has-large-font-size"></p>
+<!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm","id":110,"dimRatio":50,"overlayColor":"contrast","isUserOverlayColor":true,"backgroundType":"video","minHeight":75,"minHeightUnit":"vh","contentPosition":"center left","isDark":false,"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"className":"is-style-feature","layout":{"type":"default"}} -->
-<div class="wp-block-cover is-light has-custom-content-position is-position-center-left is-style-feature" style="min-height:75vh"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"left","placeholder":"Write title…","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"large"} -->
-<p class="has-text-align-left has-contrast-color has-text-color has-link-color has-large-font-size">This is Mediaweek</p>
-<!-- /wp:paragraph -->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm","id":119,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":50,"minHeightUnit":"vh","contentPosition":"bottom left","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:50vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"offsetTextBlock","fontSize":"x-large"} -->
+<h2 class="wp-block-heading offsetTextBlock has-contrast-color has-text-color has-link-color has-x-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Creator Visionary Awards 2022</a></h2>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:column -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<p style="margin-top:0;margin-bottom:0">A Blackletter font inspired by the brand’s primary font, Flama, to function as one of the primary visual elements for the 2022 Mediaweek event branding. The font’s dynamic design ensures effortless stretching and transformation in motion creating a fluid transition between the base Flama and blackletter characters and allowing it to adapt to fit a…</p>
-<!-- /wp:paragraph -->
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm","id":121,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":50,"minHeightUnit":"vh","contentPosition":"bottom left","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:50vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"offsetTextBlock","fontSize":"x-large"} -->
+<h2 class="wp-block-heading offsetTextBlock has-contrast-color has-text-color has-link-color has-x-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Mediaweek 2021</a></h2>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:column -->
 
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"textAlign":"left","width":100,"style":{"border":{"width":"1px","color":"#cf2e2e","radius":"0px"}}} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-border-color has-text-align-left wp-element-button" style="border-color:#cf2e2e;border-width:1px;border-radius:0px">Learn More</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div></div>
-<!-- /wp:cover -->
-
-<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-christina-corno-20099573-scaled.jpg","id":157,"hasParallax":true,"dimRatio":50,"overlayColor":"contrast","isUserOverlayColor":true,"minHeight":75,"minHeightUnit":"vh","contentPosition":"center left","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"className":"is-style-feature","layout":{"type":"default"}} -->
-<div class="wp-block-cover has-parallax has-custom-content-position is-position-center-left is-style-feature" style="min-height:75vh"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim"></span><div class="wp-block-cover__image-background wp-image-157 has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/pexels-christina-corno-20099573-scaled.jpg)"></div><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"left","placeholder":"Write title…","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"large"} -->
-<p class="has-text-align-left has-contrast-color has-text-color has-link-color has-large-font-size">This is Mediaweek</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<p style="margin-top:0;margin-bottom:0">A Blackletter font inspired by the brand’s primary font, Flama, to function as one of the primary visual elements for the 2022 Mediaweek event branding. The font’s dynamic design ensures effortless stretching and transformation in motion creating a fluid transition between the base Flama and blackletter characters and allowing it to adapt to fit a…</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"textAlign":"left","width":100,"style":{"border":{"width":"1px","color":"#cf2e2e","radius":"0px"}}} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-border-color has-text-align-left wp-element-button" style="border-color:#cf2e2e;border-width:1px;border-radius:0px">Learn More</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div></div>
-<!-- /wp:cover -->
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/image.jpeg","id":52,"hasParallax":true,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"minHeight":50,"minHeightUnit":"vh","contentPosition":"bottom left","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover has-parallax has-custom-content-position is-position-bottom-left is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:50vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><div class="wp-block-cover__image-background wp-image-52 has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/image.jpeg)"></div><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"offsetTextBlock","fontSize":"x-large"} -->
+<h2 class="wp-block-heading offsetTextBlock has-contrast-color has-text-color has-link-color has-x-large-font-size"><a href="http://bureaucrat.local/sample-page/" data-type="page" data-id="2">Adweek Events Design System</a></h2>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
@@ -642,8 +634,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
+<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
+
 <!-- wp:spacer {"height":"100vh"} -->
 <div style="height:100vh" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
-
-<!-- wp:hjude/character-shift /-->

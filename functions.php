@@ -9,6 +9,13 @@ function hjudesite_block_styles() {
         )
     );
     register_block_style(
+        'core/cover',
+        array(
+            'name'=> 'link',
+            'label'=> __( 'link', 'bureaucrat' ),
+        )
+    );
+    register_block_style(
         'core/image',
         array(
             'name'=> 'peakaboo',
@@ -32,6 +39,14 @@ function bureaucrat_block_scripts(){
     wp_enqueue_script(
 		'cover-hero',
 		get_parent_theme_file_uri( 'assets/scripts/cover-hero.js' ),
+		array(),
+		'1.0',
+		true
+	);
+
+    wp_enqueue_script(
+		'offset-text',
+		get_parent_theme_file_uri( 'assets/scripts/offset-text.js' ),
 		array(),
 		'1.0',
 		true

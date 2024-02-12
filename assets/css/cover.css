@@ -91,6 +91,15 @@ display: none !important;
     inset: 0% 0% 0% 100%;
 }
 
+.wp-block-cover.is-style-link .linkCover{
+    position: absolute;
+    display: block;
+    z-index: 2;
+    inset: 0;
+}
+
+
+
 /*Adust for flex*/
 .wp-block-cover.is-style-feature .wp-block-cover__inner-container .wp-block-separator{
     width: 100%;
