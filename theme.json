@@ -405,8 +405,8 @@
 			"blockGap": "0px",
 			"margin": {
 				"bottom": "var(--wp--preset--spacing--20)",
-				"left": "var(--wp--preset--spacing--20)",
-				"right": "var(--wp--preset--spacing--20)",
+				"left": "auto",
+				"right": "auto",
 				"top": "var(--wp--preset--spacing--20)"
 			}
 		},

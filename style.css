@@ -17,6 +17,11 @@ Tags: portfolio, full-site-editing,
 .wp-block-column{
 }
 
+body{
+    margin:var(--wp--preset--spacing--20) auto;
+    max-width: 1500px;
+}
+
 .wp-site-blocks>*{
     border-style:var(--wp--custom--border--style) !important;
     border-color: var(--wp--custom--border--color) !important;
@@ -25,4 +30,10 @@ Tags: portfolio, full-site-editing,
     margin-right: var(--wp--custom--border--offset) !important;
     margin-top: var(--wp--custom--border--offset) !important;
     margin-bottom: var(--wp--custom--border--offset) !important;
+}
+
+@media (max-width:1200px) {
+    body{
+        margin:var(--wp--preset--spacing--20) !important;
+    }
 }
