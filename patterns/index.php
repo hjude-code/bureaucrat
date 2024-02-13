@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:hjude/character-shift {"textCopy":"Hey there you, lets do something remarkable together!","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","fontSize":"xx-large"} /-->
+<!-- wp:hjude/character-shift {"textCopy":"Hey there you, lets do something remarkable together!"} /-->
 
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
@@ -18,18 +18,18 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:social-links {"openInNewTab":true,"size":"has-normal-icon-size","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"className":"is-style-logos-only","layout":{"type":"flex","orientation":"horizontal","justifyContent":"right","flexWrap":"wrap"}} -->
-<ul class="wp-block-social-links has-normal-icon-size is-style-logos-only"><!-- wp:social-link {"url":"#","service":"instagram","label":"Instagram"} /-->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","openInNewTab":true,"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20"}}},"className":"is-style-logos-only","layout":{"type":"flex","orientation":"horizontal","justifyContent":"space-between","flexWrap":"nowrap"}} -->
+<ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"instagram.com/hjude-design","service":"instagram","label":"hjude-design"} /-->
 
-<!-- wp:social-link {"url":"#","service":"github"} /-->
+<!-- wp:social-link {"url":"Lhttps://www.linkedin.com/in/harrisonjude276/","service":"linkedin","label":"Harrison Jude"} /-->
 
-<!-- wp:social-link {"url":"#","service":"dribbble"} /-->
+<!-- wp:social-link {"url":"https://github.com/hjude-code","service":"github","label":"hjude-code"} /-->
 
-<!-- wp:social-link {"url":"#","service":"mail","label":"Email"} /-->
+<!-- wp:social-link {"url":"https://dribbble.com/hjude_design","service":"dribbble","label":"hjude_design"} /-->
 
-<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+<!-- wp:social-link {"url":"https://codepen.io/hjude_code","service":"codepen","label":"hjude_code"} /-->
 
-<!-- wp:social-link {"url":"#","service":"codepen"} /--></ul>
+<!-- wp:social-link {"url":"Harrison@hjude.com","service":"mail"} /--></ul>
 <!-- /wp:social-links --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -42,24 +42,24 @@
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm","id":119,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":50,"minHeightUnit":"vh","contentPosition":"bottom left","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
-<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:50vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"offsetTextBlock","fontSize":"x-large"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm","id":119,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":75,"minHeightUnit":"vh","contentPosition":"bottom left","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:75vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"offsetTextBlock","fontSize":"x-large"} -->
 <h2 class="wp-block-heading offsetTextBlock has-contrast-color has-text-color has-link-color has-x-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Creator Visionary Awards 2022</a></h2>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm","id":121,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":50,"minHeightUnit":"vh","contentPosition":"bottom left","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
-<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:50vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"offsetTextBlock","fontSize":"x-large"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm","id":121,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":75,"minHeightUnit":"vh","contentPosition":"bottom left","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:75vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"offsetTextBlock","fontSize":"x-large"} -->
 <h2 class="wp-block-heading offsetTextBlock has-contrast-color has-text-color has-link-color has-x-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Mediaweek 2021</a></h2>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/image.jpeg","id":52,"hasParallax":true,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"minHeight":50,"minHeightUnit":"vh","contentPosition":"bottom left","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
-<div class="wp-block-cover has-parallax has-custom-content-position is-position-bottom-left is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:50vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><div class="wp-block-cover__image-background wp-image-52 has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/image.jpeg)"></div><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"offsetTextBlock","fontSize":"x-large"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/image.jpeg","id":52,"hasParallax":true,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"minHeight":75,"minHeightUnit":"vh","contentPosition":"bottom left","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover has-parallax has-custom-content-position is-position-bottom-left is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:75vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><div class="wp-block-cover__image-background wp-image-52 has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/image.jpeg)"></div><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","className":"offsetTextBlock","fontSize":"x-large"} -->
 <h2 class="wp-block-heading offsetTextBlock has-contrast-color has-text-color has-link-color has-x-large-font-size"><a href="http://bureaucrat.local/sample-page/" data-type="page" data-id="2">Adweek Events Design System</a></h2>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover --></div>
@@ -94,7 +94,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
-<div class="wp-block-column" style="padding-top:0;padding-bottom:0;flex-basis:50%"><!-- wp:image {"id":109,"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-peakaboo"} -->
+<div class="wp-block-column" style="padding-top:0;padding-bottom:0;flex-basis:50%"><!-- wp:image {"id":109,"scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"color":[]},"className":"is-style-peakaboo"} -->
 <figure class="wp-block-image size-large is-style-peakaboo"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/headshot_me_peak-1024x606.webp" alt="" class="wp-image-109" style="object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
@@ -177,7 +177,7 @@
 <div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"33.34%"} -->
 <div class="wp-block-column" style="flex-basis:33.34%"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">With Software</h3>
+<h3 class="wp-block-heading">With<br>Software</h3>
 <!-- /wp:heading -->
 
 <!-- wp:separator -->
@@ -225,7 +225,7 @@
 
 <!-- wp:column {"width":"33.34%"} -->
 <div class="wp-block-column" style="flex-basis:33.34%"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">With Code</h3>
+<h3 class="wp-block-heading">With<br>Code</h3>
 <!-- /wp:heading -->
 
 <!-- wp:separator -->
@@ -257,7 +257,7 @@
 
 <!-- wp:column {"width":"33.33%"} -->
 <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">And a little je ne sais quoi</h3>
+<h3 class="wp-block-heading">And a little<br>je ne sais quoi</h3>
 <!-- /wp:heading -->
 
 <!-- wp:separator -->
@@ -600,42 +600,4 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-columns" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
-<h2 class="wp-block-heading">When we can talk</h2>
-<!-- /wp:heading --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">There's no time like the present</h1>
-<!-- /wp:heading --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>Role</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>years</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
 <!-- wp:template-part {"slug":"footer","area":"footer"} /-->
-
-<!-- wp:spacer {"height":"100vh"} -->
-<div style="height:100vh" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
