@@ -4,11 +4,23 @@
    outline-style: var(--wp--custom--border--style);
 } */
 
+
 .wp-block-column.is-vertically-aligned-top{
     position: sticky !important;
     top:var(--wp--custom--sticky-top);
+    z-index: 7 !important;
+}
+.wp-block-column.is-vertically-aligned-top:first-of-type{
+    z-index: 9 !important;
 }
 
+@media (max-width:600px) {
+    .wp-block-column.is-vertically-aligned-top:not(:first-of-type),
+    .wp-block-column .wp-block-column.is-vertically-aligned-top{
+        position: relative !important;
+        top:0px !important;
+    }
+}
 
 /*Remove padding from*/
 .wp-block-column > :is(
