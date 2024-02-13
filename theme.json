@@ -43,6 +43,16 @@
 					"name": "Accent / Three",
 					"slug": "accent-3"
 				}
+			],
+			"duotone": [
+				{
+					"name": "B/W Invert",
+					"slug": "BW-invert",
+					"colors": [
+						"var(--wp--preset--color--base)",
+						"var(--wp--preset--color--contrast)"
+					]
+				}
 			]
 		},
 		"custom": {
