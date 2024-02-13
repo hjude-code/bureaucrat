@@ -2,6 +2,16 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"var(--wp--preset--color--base)",
+						"var(--wp--preset--color--contrast)"
+					],
+					"name": "B/W Invert",
+					"slug": "BW-invert"
+				}
+			],
 			"palette": [
 				{
 					"color": "#f9f9f9",
