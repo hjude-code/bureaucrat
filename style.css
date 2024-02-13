@@ -110,7 +110,7 @@ body{
 }
 
 
-@media (max-width:1200px) {
+@media (max-width:1500px) {
     body{
         margin:var(--wp--preset--spacing--20) !important;
     }
