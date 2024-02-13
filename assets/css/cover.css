@@ -1,3 +1,7 @@
+.wp-block-cover{
+    overflow: hidden; 
+}
+
 /*Feature*/
 
 .wp-block-cover.is-style-feature{

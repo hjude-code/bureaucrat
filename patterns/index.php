@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:hjude/character-shift {"textCopy":"Hey there you, lets do something remarkable together!"} /-->
+<!-- wp:hjude/character-shift {"textCopy":"Hey there you, lets do something remarkable together!","fontSize":"xx-large"} /-->
 
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
