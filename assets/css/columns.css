@@ -33,11 +33,21 @@
 /*expand to full width*/
 .wp-block-column>:is(
     .wp-block-cover,
-    .wp-block-separator.is-style-wide
+    .wp-block-separator.is-style-wide,
+    .wp-block-columns
 ):not(:only-child){
     margin-left:calc(var(--wp--preset--spacing--20)*-1) !important;
     margin-right:calc(var(--wp--preset--spacing--20)*-1) !important;
 }
+
+/*last-child remove padding*/
+.wp-block-column>:is(
+    .wp-block-cover,
+    .wp-block-columns
+):not(:only-child):last-child{
+    margin-bottom:calc(var(--wp--preset--spacing--20)*-1) !important;
+}
+
 
 /*remove column padding*/
 .wp-block-column:has(:is(
