@@ -2,6 +2,15 @@
     overflow: hidden; 
 }
 
+.wp-block-cover:is(
+    .is-position-bottom-center
+) .wp-block-cover__inner-container {
+    border-top-width: var(--wp--custom--border--width);
+    border-top-color: var(--wp--custom--border--color);
+    border-top-style: var(--wp--custom--border--style);
+}
+
+
 /*Feature*/
 
 .wp-block-cover.is-style-feature{
