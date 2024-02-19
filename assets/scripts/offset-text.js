@@ -1,16 +1,29 @@
-const slideText = document.querySelectorAll('.offsetTextBlock');
+const slideText = document.querySelectorAll('.wp-block-heading.is-style-offset');
 
 class characterShifter{
     constructor(source){
       this.source = source;
-      this.text = source.querySelector('a');
-      this.string = this.text.innerHTML;
+      this.text;
+      this.string;
       this.words = [];
       this.chars = [];
       this.elements = [];
       this.background = getComputedStyle(this.source).backgroundColor;
     }
     
+    setString(){
+      let link = this.source.querySelector('a');
+
+      if(link != null){
+        this.text = this.source.querySelector('a');
+      }else{
+        this.text = this.source;
+      }
+
+      this.string = this.text.innerHTML;
+    }
+
+
     breakSentences(){
       this.words = [];
       let words = this.string.split(' ');
@@ -25,12 +38,21 @@ class characterShifter{
       });
     }
     
-    createElement(charIncriment=0.05, wordIcriment=0.0){
+    createElement(charIncriment=0.05, wordIcriment=0.5){
       
       this.elements = [];
       
       let wordOffset = 0;
       let charOffset = 0;
+
+      if(this.text.tagName === "A"){
+        wordIcriment=0.0;
+      }else{
+        wordIcriment=0.5;
+      }
+
+
+      console.log(this.text.tagName);
       
       this.chars.forEach((array)=>{
         
@@ -42,6 +64,8 @@ class characterShifter{
           charBox.style.setProperty('animation-delay', `${wordOffset+charOffset}s`);
           charBox.style.setProperty('transition-delay', `${wordOffset+charOffset}s`);
           charBox.innerHTML +=`
+          <span>${char}</span>
+          <span>${char}</span>
           <span>${char}</span>
           `
           wordElement.appendChild(charBox);
@@ -55,6 +79,7 @@ class characterShifter{
     }
     
     build(){
+      this.setString();
       this.breakSentences();
       this.breakChars();
       this.createElement();
