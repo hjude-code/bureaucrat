@@ -343,7 +343,7 @@
 			"core/list": {
 				"spacing": {
 					"padding": {
-						"left":"1em"
+						"left": "1em"
 					}
 				}
 			},

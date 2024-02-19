@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:hjude/character-shift {"textCopy":"Hey there you, lets do something remarkable together!","fontSize":"xx-large"} /-->
+<!-- wp:hjude/character-shift {"textCopy":"Hey there you, lets do something remarkable together!"} /-->
 
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
@@ -33,12 +33,6 @@
 <!-- /wp:social-links --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
-
-<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm","id":119,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":100,"minHeightUnit":"vh","isDark":false,"className":"is-style-default","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light is-style-default" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size"></p>
-<!-- /wp:paragraph --></div></div>
-<!-- /wp:cover -->
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
