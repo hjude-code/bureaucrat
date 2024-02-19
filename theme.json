@@ -340,6 +340,13 @@
 					}
 				}
 			},
+			"core/list": {
+				"spacing": {
+					"padding": {
+						"left":"1em"
+					}
+				}
+			},
 			"core/navigation": {
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--20)",
