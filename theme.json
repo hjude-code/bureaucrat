@@ -273,7 +273,7 @@
 				},
 				{
 					"name": "Extra Large",
-					"size": "clamp(1rem, 5vw, 4rem)",
+					"size": "clamp(2rem, 5vw, 4rem)",
 					"slug": "x-large"
 				},
 				{
