@@ -1,5 +1,4 @@
 .wp-block-image.is-style-peakaboo{
-    height: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -8,6 +7,11 @@
     --intersection:0%;
     overflow: hidden;
 }
+
+.wp-block-image.is-style-peakaboo:only-child{
+    height: 100%;
+}
+
 .wp-block-image.is-style-peakaboo img{
     transform: translateY(var(--intersection));
 }
