@@ -60,17 +60,17 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
-<h2 class="wp-block-heading">Who I am</h2>
+<!-- wp:columns {"isStackedOnMobile":false} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"backgroundColor":"contrast","textColor":"base-2"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-2-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
+<h2 class="wp-block-heading has-medium-font-size" style="writing-mode:vertical-rl">who I am</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:heading -->
+<!-- wp:column {"width":"95%"} -->
+<div class="wp-block-column" style="flex-basis:95%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
+<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:heading -->
 <h2 class="wp-block-heading">I’m Harrison Jude</h2>
 <!-- /wp:heading -->
 
@@ -79,104 +79,96 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>As a creative developer, I don’t just solve problems, I craft visual solutions. I build systems that are as beautiful as they are effective.</p>
+<p>I’m not afraid to say “I don’t know.” In fact, I embrace it. It’s the gateway to the unknown, the spark of curiosity that ignites insight, fuels creation, and uncovers solutions.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I’m not afraid to say “I don’t know.” In fact, I embrace it. It’s the gateway to the unknown, the spark of curiosity that ignites insight, fuels creation, and uncovers solutions.</p>
+<p>As a creative developer, I don’t just solve problems, I craft visual solutions. I build systems that are as beautiful as they are effective.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
-<div class="wp-block-column" style="padding-top:0;padding-bottom:0;flex-basis:50%"><!-- wp:image {"id":109,"scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"color":[]},"className":"is-style-peakaboo"} -->
-<figure class="wp-block-image size-large is-style-peakaboo"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/headshot_me_peak-1024x606.webp" alt="" class="wp-image-109" style="object-fit:cover"/></figure>
+<!-- wp:column {"verticalAlignment":"bottom"} -->
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:image {"id":109,"width":"437px","height":"auto","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"color":[]},"className":"is-style-peakaboo"} -->
+<figure class="wp-block-image size-large is-resized is-style-peakaboo"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/headshot_me_peak-1024x606.webp" alt="" class="wp-image-109" style="object-fit:cover;width:437px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
-<h2 class="wp-block-heading">What I do</h2>
+<!-- wp:columns {"isStackedOnMobile":false} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"className":"is-style-default","fontSize":"medium"} -->
+<h2 class="wp-block-heading is-style-default has-medium-font-size" style="writing-mode:vertical-rl">what I do</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"accent"} -->
-<div class="wp-block-columns has-accent-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"50%","backgroundColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-background-color has-background" style="flex-basis:50%"><!-- wp:heading -->
-<h2 class="wp-block-heading">Design that does more than just look good,<br>Design that works.</h2>
+<!-- wp:column {"verticalAlignment":"stretch","width":"95%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:95%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading -->
+<h2 class="wp-block-heading">Design that does more than just look good, <mark style="background-color:rgba(0, 0, 0, 0);color:#cf2e2e" class="has-inline-color">Design that works.</mark></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"50%","backgroundColor":"base"} -->
-<div class="wp-block-column has-base-background-color has-background" style="flex-basis:50%"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">From Conception</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:details {"style":{"layout":{"selfStretch":"fill","flexSize":null},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
+<details class="wp-block-details has-contrast-color has-text-color has-link-color"><summary>From Conception</summary><!-- wp:paragraph -->
 <p>If the foundations aren’t stable, everything built on them will suffer. I build robust and meaningful design systems that help ensure success across all aspects of the project.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
+<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p></p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">through Utilization,</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>through utilization</summary><!-- wp:paragraph -->
 <p>A design system is only as good as it’s able to be utilized. I create toolkits that make working within the design system pain free, and ensure visual consistency across assets. From robust asset libraries, to template files with predefined grids, to After Effects expressions that empower any designer to work with motion to create impactful assets.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
+<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p></p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">to Scale</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>to scale</summary><!-- wp:paragraph -->
 <p>I construct logical and reasoned systems, with expansion and growth in mind. As campaigns and brands expand, the design systems supporting them should naturally grow and evolve with them.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
+<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p></p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">& Impact</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>& impact</summary><!-- wp:paragraph -->
 <p>A good foundation, and empowered designers, set the stage for impactful graphics that reliably pull the viewers attention and deliver the message.</p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p></p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
-<h2 class="wp-block-heading">How I do it</h2>
+<!-- wp:columns {"isStackedOnMobile":false} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
+<h2 class="wp-block-heading has-medium-font-size" style="writing-mode:vertical-rl">How I do it</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"33.34%"} -->
-<div class="wp-block-column" style="flex-basis:33.34%"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">With<br>Software</h3>
+<!-- wp:column {"width":"95%"} -->
+<div class="wp-block-column" style="flex-basis:95%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">with software</h3>
 <!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
@@ -217,14 +209,10 @@
 <!-- /wp:list --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"33.34%"} -->
-<div class="wp-block-column" style="flex-basis:33.34%"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">With<br>Code</h3>
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">With Code</h3>
 <!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
@@ -249,14 +237,10 @@
 <!-- /wp:list --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"33.33%"} -->
-<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:heading {"level":3} -->
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">And a little<br>je ne sais quoi</h3>
 <!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
 
 <!-- wp:list -->
 <ul><!-- wp:list-item -->
@@ -284,255 +268,247 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"base"} -->
-<div class="wp-block-columns has-base-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
-<h2 class="wp-block-heading">Where I've been</h2>
+<!-- wp:columns {"isStackedOnMobile":false} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
+<h2 class="wp-block-heading has-medium-font-size" style="writing-mode:vertical-rl">where I've worked</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:heading {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<h2 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">Work</h2>
-<!-- /wp:heading -->
-
-<!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"accent"} -->
-<div class="wp-block-columns has-accent-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"50%","backgroundColor":"base"} -->
-<div class="wp-block-column has-base-background-color has-background" style="flex-basis:50%"><!-- wp:heading {"level":1} -->
+<!-- wp:column {"width":"95%","style":{"spacing":{"blockGap":"2px"}}} -->
+<div class="wp-block-column" style="flex-basis:95%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Adweek</h1>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary><strong>Editorial and Events Company</strong></summary><!-- wp:paragraph -->
+<p>In my role at Adweek, I have continuously improved creative events team processes to enable more efficient and effective work. In addition to designing motion graphics and building event sites, I have developed centralized storage systems and shared asset libraries, created effect presets and motion graphics templates, and laid the groundwork for an Adweek design system. These initiatives have saved time, ensured consistency, and empowered team members of all skill levels to produce high-quality work. I am passionate about working smarter, not harder, and I am eager to bring this ethos to my next role.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><strong><strong>Editorial and Events Company</strong></strong></h3>
+<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p></p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"stretch","style":{"spacing":{"blockGap":"0"}},"backgroundColor":"accent"} -->
+<div class="wp-block-column is-vertically-aligned-stretch has-accent-background-color has-background"><!-- wp:group {"backgroundColor":"base","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-base-background-color has-background"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Creative Developer</h4>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- wp:paragraph -->
+<p>2022-Current</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 <!-- /wp:separator -->
 
+<!-- wp:group {"backgroundColor":"base","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-base-background-color has-background"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Graphic Designer</h4>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>In my role at Adweek, I have continuously improved creative events team processes to enable more efficient and effective work. In addition to designing motion graphics and building event sites, I have developed centralized storage systems and shared asset libraries, created effect presets and motion graphics templates, and laid the groundwork for an Adweek design system. These initiatives have saved time, ensured consistency, and empowered team members of all skill levels to produce high-quality work. I am passionate about working smarter, not harder, and I am eager to bring this ethos to my next role.</p>
+<p>2021-2022</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:column -->
+<!-- /wp:group -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}},"backgroundColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>Creative Developer</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>2022–Current</p>
-<!-- /wp:paragraph --></div>
+<!-- wp:spacer {"height":"10vh"} -->
+<div style="height:10vh" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>Graphic Designer</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>2021–2022</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns {"style":{"color":{"background":"#0079c2"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-columns has-background" style="background-color:#0079c2;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"50%","backgroundColor":"base"} -->
-<div class="wp-block-column has-base-background-color has-background" style="flex-basis:50%"><!-- wp:heading {"level":1} -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">SKDK</h1>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Political Public affairs firm</summary><!-- wp:paragraph -->
+<p>In my role at Adweek, I have continuously improved creative events team processes to enable more efficient and effective work. In addition to designing motion graphics and building event sites, I have developed centralized storage systems and shared asset libraries, created effect presets and motion graphics templates, and laid the groundwork for an Adweek design system. These initiatives have saved time, ensured consistency, and empowered team members of all skill levels to produce high-quality work. I am passionate about working smarter, not harder, and I am eager to bring this ethos to my next role.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><strong><strong><strong>public affairs and political consulting firm</strong></strong></strong></h3>
+<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p></p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"blockGap":"0"}},"backgroundColor":"accent-2"} -->
+<div class="wp-block-column has-accent-2-background-color has-background"><!-- wp:group {"backgroundColor":"base","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-base-background-color has-background"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Graphic Designer</h4>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- wp:paragraph -->
+<p>2022-Current</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 <!-- /wp:separator -->
 
+<!-- wp:group {"backgroundColor":"base","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-base-background-color has-background"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Graphic Design Intern</h4>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>At SKDK, I honed my skills in crafting impactful marketing assets across digital and print mediums for esteemed clients like the United Auto Workers Union and The Carnegie Medal of Philanthropy. Working alongside my art director, I designed engaging content for social media campaigns. Additionally, I conceptualized and designed event space branding, print ads, and billboards that effectively communicated clients' messages to their target audiences. This experience solidified my ability to adapt my creative approach to diverse stakeholders and deliver results-driven marketing solutions.</p>
+<p>2021-2022</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:column -->
+<!-- /wp:group -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}},"backgroundColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>Freelance Graphic Designer</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>2020–2021</p>
-<!-- /wp:paragraph --></div>
+<!-- wp:spacer {"height":"10vh"} -->
+<div style="height:10vh" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>Graphic Design Intern</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>2019–2019</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:columns {"style":{"color":{"background":"#ffb00c"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-columns has-background" style="background-color:#ffb00c;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"50%","backgroundColor":"base"} -->
-<div class="wp-block-column has-base-background-color has-background" style="flex-basis:50%"><!-- wp:heading {"level":1} -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">W14 Print Labs</h1>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary><strong><strong>University Print Lab</strong></strong></summary><!-- wp:paragraph -->
+<p>In my role at Adweek, I have continuously improved creative events team processes to enable more efficient and effective work. In addition to designing motion graphics and building event sites, I have developed centralized storage systems and shared asset libraries, created effect presets and motion graphics templates, and laid the groundwork for an Adweek design system. These initiatives have saved time, ensured consistency, and empowered team members of all skill levels to produce high-quality work. I am passionate about working smarter, not harder, and I am eager to bring this ethos to my next role.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><strong><strong>University Print Lab</strong></strong></h3>
+<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p></p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"blockGap":"0"}},"backgroundColor":"luminous-vivid-amber"} -->
+<div class="wp-block-column has-luminous-vivid-amber-background-color has-background"><!-- wp:group {"backgroundColor":"base","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-base-background-color has-background"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Print Lab Associate</h4>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- wp:paragraph -->
+<p>2022-Current</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 <!-- /wp:separator -->
 
-<!-- wp:paragraph -->
-<p>In my role as a Print Lab Associate, I played a key role in ensuring the smooth operation of the lab by operating and maintaining a wide range of equipment, from Xerox printers to large format plotters and vinyl sticker printers. I was the go-to person for staff and students seeking printing assistance, providing them with expert guidance and ensuring their projects were completed to the highest standards.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}},"backgroundColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>Print Lab Associate</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>2018–2019</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
+<!-- wp:spacer {"height":"10vh"} -->
+<div style="height:10vh" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"style":{"color":{"background":"#096543"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-columns has-background" style="background-color:#096543;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"50%","backgroundColor":"base"} -->
-<div class="wp-block-column has-base-background-color has-background" style="flex-basis:50%"><!-- wp:heading {"level":1} -->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">NYC Dept. of Sanitation</h1>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
+<!-- wp:details -->
+<details class="wp-block-details"><summary><strong><strong><strong>Government Agency</strong></strong></strong></summary><!-- wp:paragraph -->
+<p>In my role at Adweek, I have continuously improved creative events team processes to enable more efficient and effective work. In addition to designing motion graphics and building event sites, I have developed centralized storage systems and shared asset libraries, created effect presets and motion graphics templates, and laid the groundwork for an Adweek design system. These initiatives have saved time, ensured consistency, and empowered team members of all skill levels to produce high-quality work. I am passionate about working smarter, not harder, and I am eager to bring this ethos to my next role.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><strong><strong>Government Agency</strong></strong></h3>
+<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p></p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"blockGap":"0"},"color":{"background":"#077836"}}} -->
+<div class="wp-block-column has-background" style="background-color:#077836"><!-- wp:group {"backgroundColor":"base","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-base-background-color has-background"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Graphic Design Intern</h4>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- wp:paragraph -->
+<p>2022-Current</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 <!-- /wp:separator -->
 
-<!-- wp:paragraph -->
-<p>Typeset an Information Manual, maintained web assets, and created static and kinetic social media content.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}},"backgroundColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>Graphic Design Intern</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>Summer 2018</p>
-<!-- /wp:paragraph --></div>
+<!-- wp:spacer {"height":"10vh"} -->
+<div style="height:10vh" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:heading {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<h2 class="wp-block-heading has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">Education</h2>
-<!-- /wp:heading -->
+<!-- wp:columns {"verticalAlignment":null,"isStackedOnMobile":false} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
+<h3 class="wp-block-heading" style="writing-mode:vertical-rl">Where I've studied</h3>
+<!-- /wp:heading --></div>
+<!-- /wp:column -->
 
-<!-- wp:columns {"style":{"color":{"background":"#ffb00c"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-columns has-background" style="background-color:#ffb00c;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"width":"50%","backgroundColor":"base"} -->
-<div class="wp-block-column has-base-background-color has-background" style="flex-basis:50%"><!-- wp:heading {"level":1} -->
+<!-- wp:column {"verticalAlignment":"stretch","width":"95%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:95%"><!-- wp:columns {"verticalAlignment":null} -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
+<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Pratt Institute</h1>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- wp:details -->
+<details class="wp-block-details"><summary><strong><strong><strong>AOS, Graphic Design</strong></strong></strong></summary><!-- wp:paragraph -->
+<p>In my role at Adweek, I have continuously improved creative events team processes to enable more efficient and effective work. In addition to designing motion graphics and building event sites, I have developed centralized storage systems and shared asset libraries, created effect presets and motion graphics templates, and laid the groundwork for an Adweek design system. These initiatives have saved time, ensured consistency, and empowered team members of all skill levels to produce high-quality work. I am passionate about working smarter, not harder, and I am eager to bring this ethos to my next role.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p></p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"stretch","style":{"spacing":{"blockGap":"0"}},"backgroundColor":"luminous-vivid-amber"} -->
+<div class="wp-block-column is-vertically-aligned-stretch has-luminous-vivid-amber-background-color has-background"><!-- wp:group {"backgroundColor":"base","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-base-background-color has-background"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Student</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2022-Current</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 <!-- /wp:separator -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Art and Design University in NYC</h3>
-<!-- /wp:heading --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}},"backgroundColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>AOS, Graphic Design</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:paragraph -->
-<p>2017–2019</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
+<!-- wp:spacer {"height":"186px"} -->
+<div style="height:186px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-<div class="wp-block-columns" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"20%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:20%"><!-- wp:heading -->
-<h2 class="wp-block-heading">Why I do it</h2>
+<!-- wp:columns {"isStackedOnMobile":false} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
+<h3 class="wp-block-heading" style="writing-mode:vertical-rl">Why I do it</h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"80%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"2px"}}} -->
-<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:80%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading -->
+<!-- wp:column {"width":"95%"} -->
+<div class="wp-block-column" style="flex-basis:95%"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading -->
 <h2 class="wp-block-heading">To Challenge</h2>
 <!-- /wp:heading -->
 
@@ -561,8 +537,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"stretch","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:50%"><!-- wp:heading -->
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading -->
 <h2 class="wp-block-heading">To Humanize</h2>
 <!-- /wp:heading -->
 
