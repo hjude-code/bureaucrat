@@ -61,14 +61,14 @@
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"backgroundColor":"contrast","textColor":"base-2"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-2-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"backgroundColor":"contrast","textColor":"base-2"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-2-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
 <h2 class="wp-block-heading has-medium-font-size" style="writing-mode:vertical-rl">who I am</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"95%"} -->
-<div class="wp-block-column" style="flex-basis:95%"><!-- wp:columns -->
+<!-- wp:column {"width":"100%"} -->
+<div class="wp-block-column" style="flex-basis:100%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
 <div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:heading -->
 <h2 class="wp-block-heading">I’m Harrison Jude</h2>
@@ -97,14 +97,14 @@
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"className":"is-style-default","fontSize":"medium"} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"className":"is-style-default","fontSize":"medium"} -->
 <h2 class="wp-block-heading is-style-default has-medium-font-size" style="writing-mode:vertical-rl">what I do</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"stretch","width":"95%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:95%"><!-- wp:columns -->
+<!-- wp:column {"verticalAlignment":"stretch","width":"100%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:100%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading -->
 <h2 class="wp-block-heading">Design that does more than just look good, <mark style="background-color:rgba(0, 0, 0, 0);color:#cf2e2e" class="has-inline-color">Design that works.</mark></h2>
@@ -157,14 +157,14 @@
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
 <h2 class="wp-block-heading has-medium-font-size" style="writing-mode:vertical-rl">How I do it</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"95%"} -->
-<div class="wp-block-column" style="flex-basis:95%"><!-- wp:columns -->
+<!-- wp:column {"width":"100%"} -->
+<div class="wp-block-column" style="flex-basis:100%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">with software</h3>
@@ -269,14 +269,14 @@
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
 <h2 class="wp-block-heading has-medium-font-size" style="writing-mode:vertical-rl">where I've worked</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"95%","style":{"spacing":{"blockGap":"2px"}}} -->
-<div class="wp-block-column" style="flex-basis:95%"><!-- wp:columns -->
+<!-- wp:column {"width":"100%","style":{"spacing":{"blockGap":"2px"}}} -->
+<div class="wp-block-column" style="flex-basis:100%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Adweek</h1>
@@ -450,15 +450,15 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":null,"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
+<!-- wp:columns {"isStackedOnMobile":false} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
 <h3 class="wp-block-heading" style="writing-mode:vertical-rl">Where I've studied</h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"stretch","width":"95%"} -->
-<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:95%"><!-- wp:columns {"verticalAlignment":null} -->
+<!-- wp:column {"verticalAlignment":"stretch","width":"100%"} -->
+<div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:100%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
 <div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Pratt Institute</h1>
@@ -499,14 +499,14 @@
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"5%","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:5%"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
+<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
 <h3 class="wp-block-heading" style="writing-mode:vertical-rl">Why I do it</h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"95%"} -->
-<div class="wp-block-column" style="flex-basis:95%"><!-- wp:columns -->
+<!-- wp:column {"width":"100%"} -->
+<div class="wp-block-column" style="flex-basis:100%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading -->
 <h2 class="wp-block-heading">To Challenge</h2>
