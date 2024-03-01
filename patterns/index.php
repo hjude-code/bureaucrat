@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:hjude/character-shift {"textCopy":"Hey there you, lets do something remarkable together!"} /-->
+<!-- wp:hjude/character-shift {"textCopy":"Hey there you, lets do something remarkable together!","fontSize":"xx-large"} /-->
 
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
@@ -34,35 +34,33 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm","id":119,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":75,"minHeightUnit":"vh","contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
-<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:75vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","className":"offsetTextBlock is-style-offset","fontSize":"x-large"} -->
-<h2 class="wp-block-heading offsetTextBlock is-style-offset has-contrast-color has-base-background-color has-text-color has-background has-link-color has-x-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Creator Visionary Awards 2022</a></h2>
+<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm","id":112,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":100,"minHeightUnit":"vh","contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","className":"offsetTextBlock is-style-offset","fontSize":"large"} -->
+<h2 class="wp-block-heading offsetTextBlock is-style-offset has-contrast-color has-base-background-color has-text-color has-background has-link-color has-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Adweek events lockup design system</a></h2>
 <!-- /wp:heading --></div></div>
-<!-- /wp:cover --></div>
-<!-- /wp:column -->
+<!-- /wp:cover -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm","id":121,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":75,"minHeightUnit":"vh","contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
-<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:75vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Flipthrough_1x1_1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","className":"offsetTextBlock is-style-offset","fontSize":"x-large"} -->
-<h2 class="wp-block-heading offsetTextBlock is-style-offset has-contrast-color has-base-background-color has-text-color has-background has-link-color has-x-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Mediaweek 2021</a></h2>
+<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm","id":110,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":100,"minHeightUnit":"vh","contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/David_1x1.webm" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","className":"offsetTextBlock is-style-offset","fontSize":"large"} -->
+<h2 class="wp-block-heading offsetTextBlock is-style-offset has-contrast-color has-base-background-color has-text-color has-background has-link-color has-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Creator Visonary Awards</a></h2>
 <!-- /wp:heading --></div></div>
-<!-- /wp:cover --></div>
-<!-- /wp:column -->
+<!-- /wp:cover -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/image.jpeg","id":52,"hasParallax":true,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"minHeight":75,"minHeightUnit":"vh","contentPosition":"bottom center","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
-<div class="wp-block-cover has-parallax has-custom-content-position is-position-bottom-center is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:75vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><div class="wp-block-cover__image-background wp-image-52 has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/image.jpeg)"></div><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","className":"offsetTextBlock is-style-offset","fontSize":"x-large"} -->
-<h2 class="wp-block-heading offsetTextBlock is-style-offset has-contrast-color has-base-background-color has-text-color has-background has-link-color has-x-large-font-size"><a href="http://bureaucrat.local/sample-page/" data-type="page" data-id="2">Adweek Events Design System</a></h2>
+<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Otlk_24_Year_Chronoloop_pattern_1080x1080.mp4","id":460,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":740,"minHeightUnit":"px","contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:740px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/Otlk_24_Year_Chronoloop_pattern_1080x1080.mp4" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","className":"offsetTextBlock is-style-offset","fontSize":"large"} -->
+<h2 class="wp-block-heading offsetTextBlock is-style-offset has-contrast-color has-base-background-color has-text-color has-background has-link-color has-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Outlook 2024</a></h2>
 <!-- /wp:heading --></div></div>
-<!-- /wp:cover --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- /wp:cover -->
 
-<!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"backgroundColor":"contrast","textColor":"base-2"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-2-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/AW_Lockup_modes_4x3.mp4","id":529,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"backgroundType":"video","minHeight":740,"minHeightUnit":"px","contentPosition":"bottom center","isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center is-style-link" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:740px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/videos/AW_Lockup_modes_4x3.mp4" data-object-fit="cover"></video><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","className":"offsetTextBlock is-style-offset","fontSize":"large"} -->
+<h2 class="wp-block-heading offsetTextBlock is-style-offset has-contrast-color has-base-background-color has-text-color has-background has-link-color has-large-font-size"><a href="http://test.com" data-type="link" data-id="test.com">Adweek Events' Lockup Design System</a></h2>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:columns {"isStackedOnMobile":false,"style":{"spacing":{"padding":{"top":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns is-not-stacked-on-mobile" style="padding-top:var(--wp--preset--spacing--50)"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast"} -->
+<div class="wp-block-column is-vertically-aligned-top has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
 <h2 class="wp-block-heading has-medium-font-size" style="writing-mode:vertical-rl">who I am</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
@@ -70,8 +68,8 @@
 <!-- wp:column {"width":"100%"} -->
 <div class="wp-block-column" style="flex-basis:100%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"stretch"} -->
-<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:heading -->
-<h2 class="wp-block-heading">I’m Harrison Jude</h2>
+<div class="wp-block-column is-vertically-aligned-stretch"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">I’m Harrison Jude</h2>
 <!-- /wp:heading -->
 
 <!-- wp:heading -->
@@ -97,21 +95,21 @@
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"className":"is-style-default","fontSize":"medium"} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast"} -->
+<div class="wp-block-column is-vertically-aligned-top has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"className":"is-style-default","fontSize":"medium"} -->
 <h2 class="wp-block-heading is-style-default has-medium-font-size" style="writing-mode:vertical-rl">what I do</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"stretch","width":"100%"} -->
 <div class="wp-block-column is-vertically-aligned-stretch" style="flex-basis:100%"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading -->
+<div class="wp-block-columns"><!-- wp:column {"width":"100%"} -->
+<div class="wp-block-column" style="flex-basis:100%"><!-- wp:heading -->
 <h2 class="wp-block-heading">Design that does more than just look good, <mark style="background-color:rgba(0, 0, 0, 0);color:#cf2e2e" class="has-inline-color">Design that works.</mark></h2>
-<!-- /wp:heading --></div>
-<!-- /wp:column -->
+<!-- /wp:heading -->
 
-<!-- wp:column {"width":"50%"} -->
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:details {"style":{"layout":{"selfStretch":"fill","flexSize":null},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
 <details class="wp-block-details has-contrast-color has-text-color has-link-color"><summary>From Conception</summary><!-- wp:paragraph -->
 <p>If the foundations aren’t stable, everything built on them will suffer. I build robust and meaningful design systems that help ensure success across all aspects of the project.</p>
@@ -130,9 +128,11 @@
 <!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
 <p></p>
 <!-- /wp:paragraph --></details>
-<!-- /wp:details -->
+<!-- /wp:details --></div>
+<!-- /wp:column -->
 
-<!-- wp:details -->
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:details -->
 <details class="wp-block-details"><summary>to scale</summary><!-- wp:paragraph -->
 <p>I construct logical and reasoned systems, with expansion and growth in mind. As campaigns and brands expand, the design systems supporting them should naturally grow and evolve with them.</p>
 <!-- /wp:paragraph -->
@@ -154,11 +154,13 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast"} -->
+<div class="wp-block-column is-vertically-aligned-top has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
 <h2 class="wp-block-heading has-medium-font-size" style="writing-mode:vertical-rl">How I do it</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
@@ -167,7 +169,7 @@
 <div class="wp-block-column" style="flex-basis:100%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">with software</h3>
+<h3 class="wp-block-heading">with<br>software</h3>
 <!-- /wp:heading -->
 
 <!-- wp:list -->
@@ -211,7 +213,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">With Code</h3>
+<h3 class="wp-block-heading">With<br>Code</h3>
 <!-- /wp:heading -->
 
 <!-- wp:list -->
@@ -269,8 +271,8 @@
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast"} -->
+<div class="wp-block-column is-vertically-aligned-top has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"style":{"typography":{"writingMode":"vertical-rl"}},"fontSize":"medium"} -->
 <h2 class="wp-block-heading has-medium-font-size" style="writing-mode:vertical-rl">where I've worked</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
@@ -451,8 +453,8 @@
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast"} -->
+<div class="wp-block-column is-vertically-aligned-top has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
 <h3 class="wp-block-heading" style="writing-mode:vertical-rl">Where I've studied</h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
@@ -499,8 +501,8 @@
 <!-- /wp:columns -->
 
 <!-- wp:columns {"isStackedOnMobile":false} -->
-<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base"} -->
-<div class="wp-block-column is-vertically-aligned-top has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
+<div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast"} -->
+<div class="wp-block-column is-vertically-aligned-top has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"}}} -->
 <h3 class="wp-block-heading" style="writing-mode:vertical-rl">Why I do it</h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->

@@ -1,13 +1,18 @@
-.wp-block-cover{
-    overflow: hidden; 
+.wp-block-cover .wp-block-cover__inner-container {
+    border-top-width: var(--wp--custom--border--width);
+    border-bottom-width: var(--wp--custom--border--width);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: var(--wp--custom--border--color);
+    border-style: var(--wp--custom--border--style);
 }
 
 .wp-block-cover:is(
     .is-position-bottom-center
 ) .wp-block-cover__inner-container {
-    border-top-width: var(--wp--custom--border--width);
-    border-top-color: var(--wp--custom--border--color);
-    border-top-style: var(--wp--custom--border--style);
+    border-bottom-width:0px !important;
+    position: sticky;
+    bottom: 0px;
 }
 
 

@@ -1,8 +1,7 @@
-/* .wp-block-columns .wp-block-column{
-   outline-color: var(--wp--custom--border--color);
-   outline-width: var(--wp--custom--border--width);
-   outline-style: var(--wp--custom--border--style);
-} */
+.wp-block-columns .wp-block-column{
+   container-name:column;
+   container-type: inline-size;
+}
 
 
 .wp-block-column.is-vertically-aligned-top{
