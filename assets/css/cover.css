@@ -1,3 +1,40 @@
+.wp-block-cover .wp-block-cover__inner-container{
+    border-color: var(--wp--custom--border--color);
+    border-style: var(--wp--custom--border--style);
+    border-width: 0px !important;
+}
+
+.wp-block-cover:is(
+    .is-position-top-left,
+    .is-position-top-center,
+    .is-position-top-right
+) .wp-block-cover__inner-container {
+    border-width: 0px 0px var(--wp--custom--border--width) 0px !important;
+    border-bottom-width:var(--wp--custom--border--width) !important;
+}
+
+.wp-block-cover:is(
+    .is-position-bottom-left,
+    .is-position-bottom-center,
+    .is-position-bottom-right
+) .wp-block-cover__inner-container {
+    border-width:var(--wp--custom--border--width) 0px 0px 0px !important;
+    border-top-width:var(--wp--custom--border--width) !important;
+    position: sticky;
+    bottom: 0px;
+}
+
+.wp-block-cover:is(
+    .is-position-center-left,
+    .is-position-center-right
+) .wp-block-cover__inner-container {
+    border-width:var(--wp--custom--border--width) 0px !important;
+    border-top-width:var(--wp--custom--border--width) !important;
+    border-bottom-width:var(--wp--custom--border--width) !important;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+}
+
 /*Feature*/
 
 .wp-block-cover.is-style-feature{
@@ -20,38 +57,11 @@
    align-items: stretch;
    justify-content: end;
    background-color: rgba(255,255,255,0.95);
-   border-color: var(--wp--custom--border--color);
-   border-style: var(--wp--custom--border--style);
 }
 
 .wp-block-cover.is-style-feature .wp-block-cover__inner-container>*{
     position: relative;
     z-index: 2;
-}
-
-.wp-block-cover.is-style-feature:is(
-    .is-position-top-left,
-    .is-position-top-center,
-    .is-position-top-right
-) .wp-block-cover__inner-container {
-    border-width: 0px 0px var(--wp--custom--border--width) 0px !important;
-}
-
-.wp-block-cover:is(
-    .is-position-bottom-left,
-    .is-position-bottom-center,
-    .is-position-bottom-right
-) .wp-block-cover__inner-container {
-    border-width:var(--wp--custom--border--width) 0px 0px 0px !important;
-    position: sticky;
-    bottom: 0px;
-}
-
-.wp-block-cover.is-style-feature:is(
-    .is-position-center-left,
-    .is-position-center-right
-) .wp-block-cover__inner-container {
-    border-width:var(--wp--custom--border--width) 0px !important;
 }
 
 .wp-block-cover.is-style-feature.is-position-top-left .wp-block-cover__inner-container{
