@@ -48,9 +48,9 @@
     z-index:1;
 }
 
-:is(.wp-block-cover):has(.offsetTextBlock):hover .offsetWordBox,
+:is(.wp-block-cover):has(.is-style-offset):hover .offsetWordBox,
 .wp-block-cover.cover-in .offsetWordBox{
-    height: var(--height);
+    height: var(--height) !important;
 }
 
 .is-style-offset .offsetCharBox{
