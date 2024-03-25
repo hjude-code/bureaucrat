@@ -9,7 +9,6 @@
     border-bottom-color: var(--wp--custom--border--color);
     border-bottom-width: var(--wp--custom--border--width);
     border-bottom-style: var(--wp--custom--border--style);
-
 }
 
 .wp-block-query .wp-block-post-template.is-layout-flow .wp-block-post:not(:last-child){
@@ -22,7 +21,7 @@
     gap:var(--wp--custom--border--width);
 }
 
-.wp-block-query .wp-block-post-template.is-layout-grid .wp-block-post:not(:last-child){
+.wp-block-query .wp-block-post-template.is-layout-grid .wp-block-post{
     outline-width: var(--wp--custom--border--width);
     outline-style: var(--wp--custom--border--style);
     outline-color: var(--wp--custom--border--color);

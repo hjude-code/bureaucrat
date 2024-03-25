@@ -6,7 +6,7 @@
 .is-style-offset a{
     width: 100%;
     flex-grow: 1;
-    display: flex;
+    display: flex !important;
     --height:2em;
     gap:var(--wp--custom--border--width);
     flex-wrap: wrap;
@@ -91,11 +91,11 @@
     display: block;
 }
 
-.wp-block-cover__inner-container .is-style-offset{
+/* .wp-block-cover__inner-container .is-style-offset{
     border-color: var(--wp--custom--border--color) !important;
     border-style: var(--wp--custom--border--style) !important;
     border-width: var(--wp--custom--border--width) 0px !important;
-}
+} */
 
 @media (min-width:600px){
 
