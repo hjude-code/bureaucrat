@@ -30,7 +30,6 @@ function hjudesite_block_styles() {
         )
     );
 }
-
 add_action( 'init', 'hjudesite_block_styles' );
 
 

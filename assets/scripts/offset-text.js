@@ -1,4 +1,4 @@
-const slideText = document.querySelectorAll('.wp-block-heading.is-style-offset');
+const slideText = document.querySelectorAll('.is-style-offset');
 
 class characterShifter{
     constructor(source){
