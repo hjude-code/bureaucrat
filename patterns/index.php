@@ -36,8 +36,8 @@
 
 <!-- wp:query {"queryId":2,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"namespace":"core/posts-list"} -->
 <div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:cover {"useFeaturedImage":true,"hasParallax":true,"dimRatio":0,"customOverlayColor":"#383838","isUserOverlayColor":true,"contentPosition":"bottom center","isDark":false,"className":"is-style-link","layout":{"type":"default"}} -->
-<div class="wp-block-cover is-light has-parallax has-custom-content-position is-position-bottom-center is-style-link"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#383838"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","className":"is-style-offset","fontSize":"x-large"} /--></div></div>
+<!-- wp:cover {"useFeaturedImage":true,"isRepeated":true,"dimRatio":0,"customOverlayColor":"#383838","isUserOverlayColor":true,"contentPosition":"bottom center","isDark":false,"className":"is-style-link, blur-content-background is-style-link","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light is-repeated has-custom-content-position is-position-bottom-center is-style-link, blur-content-background is-style-link"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#383838"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"className":"is-style-offset","fontSize":"x-large"} /--></div></div>
 <!-- /wp:cover -->
 <!-- /wp:post-template --></div>
 <!-- /wp:query -->
