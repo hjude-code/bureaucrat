@@ -329,6 +329,16 @@
 					"blockGap": "var(--wp--custom--border--width)"
 				}
 			},
+			"core/cover": {
+				"spacing": {
+					"padding": {
+						"bottom": "0px",
+						"left": "0px",
+						"right": "0px",
+						"top": "0px"
+					}
+				}
+			},
 			"core/group": {
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--20)",
@@ -350,6 +360,16 @@
 			"core/navigation": {
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--20)",
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--20)",
+						"left": "var(--wp--preset--spacing--20)",
+						"right": "var(--wp--preset--spacing--20)",
+						"top": "var(--wp--preset--spacing--20)"
+					}
+				}
+			},
+			"core/post-title": {
+				"spacing": {
 					"padding": {
 						"bottom": "var(--wp--preset--spacing--20)",
 						"left": "var(--wp--preset--spacing--20)",

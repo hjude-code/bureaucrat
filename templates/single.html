@@ -1,19 +1,10 @@
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
-<!-- wp:cover {"useFeaturedImage":true,"hasParallax":true,"dimRatio":0,"customOverlayColor":"#FFF","isUserOverlayColor":true,"minHeight":559,"minHeightUnit":"px","isDark":false,"className":"is-style-default","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light has-parallax is-style-default" style="min-height:559px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#FFF"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
-<p class="has-text-align-center has-large-font-size"></p>
-<!-- /wp:paragraph --></div></div>
-<!-- /wp:cover -->
+<!-- wp:cover {"useFeaturedImage":true,"hasParallax":true,"dimRatio":0,"overlayColor":"base","isUserOverlayColor":true,"minHeight":95,"minHeightUnit":"vh","contentPosition":"bottom center","isDark":false,"className":"blur-content-background","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light has-parallax has-custom-content-position is-position-bottom-center blur-content-background" style="min-height:95vh"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:post-title {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
 
-<!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"level":1} /-->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-<!-- /wp:separator -->
-
-<!-- wp:mfb/meta-field-block {"fieldName":"Case-Study-Headline","fieldSettings":[],"hideEmpty":true,"tagName":"h3"} /--></div>
+<!-- wp:mfb/meta-field-block {"fieldName":"Case-Study-Headline","fieldSettings":[],"emptyMessage":"Post Subhead"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:columns -->
@@ -26,21 +17,24 @@
 <p>Adweek | NYC</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator {"className":"is-style-default"} -->
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-default"/>
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
 <p>2022</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:separator {"className":"is-style-default"} -->
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-default"/>
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
 <!-- /wp:separator -->
 
-<!-- wp:post-terms {"term":"post_tag"} /--></div>
+<!-- wp:paragraph -->
+<p>Tags</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- /wp:columns --></div></div>
+<!-- /wp:cover -->
 
 <!-- wp:post-content {"layout":{"type":"default"}} /-->
 
