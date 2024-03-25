@@ -91,6 +91,12 @@
     display: block;
 }
 
+.wp-block-cover__inner-container .is-style-offset{
+    border-color: var(--wp--custom--border--color) !important;
+    border-style: var(--wp--custom--border--style) !important;
+    border-width: var(--wp--custom--border--width) 0px !important;
+}
+
 @media (min-width:600px){
 
     .is-style-offset:hover a .offsetWordBox{
