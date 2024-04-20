@@ -17,26 +17,19 @@ Tags: portfolio, full-site-editing,
 .wp-block-column{
 }
 
-body{
-    margin:var(--wp--preset--spacing--20) auto;
-    max-width: 1500px;
-}
-
 
 
 .wp-site-blocks>*{
     border-style:var(--wp--custom--border--style) !important;
     border-color: var(--wp--custom--border--color) !important;
     border-width: var(--wp--custom--border--width) !important;
-    margin-left: var(--wp--custom--border--offset) !important;
-    margin-right: var(--wp--custom--border--offset) !important;
     margin-top: var(--wp--custom--border--offset) !important;
     margin-bottom: var(--wp--custom--border--offset) !important;
 }
 
 
-@media (max-width:1500px) {
+/* @media (max-width:1500px) {
     body{
         margin:var(--wp--preset--spacing--20) !important;
     }
-}
+} */

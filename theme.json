@@ -284,7 +284,7 @@
 			],
 			"writingMode": true
 		},
-		"useRootPaddingAwareAlignments": true
+		"useRootPaddingAwareAlignments": false
 	},
 	"styles": {
 		"blocks": {
@@ -425,19 +425,8 @@
 				}
 			}
 		},
-		"outline": {
-			"color": "var(--wp--custom--border--color)",
-			"style": "var(--wp--custom--border--style)",
-			"width": "var(--wp--custom--border--width)"
-		},
 		"spacing": {
-			"blockGap": "0px",
-			"margin": {
-				"bottom": "var(--wp--preset--spacing--20)",
-				"left": "auto",
-				"right": "auto",
-				"top": "var(--wp--preset--spacing--20)"
-			}
+			"blockGap": "0px"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)",
