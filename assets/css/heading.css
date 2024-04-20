@@ -99,6 +99,10 @@
 
 @media (min-width:600px){
 
+    .is-style-offset.offsetCollapse .offsetWordBox{
+        flex-grow:0;
+    }
+
     .is-style-offset:hover a .offsetWordBox{
         height: var(--height);
     }

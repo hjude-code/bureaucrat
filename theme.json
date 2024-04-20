@@ -272,13 +272,17 @@
 					"slug": "large"
 				},
 				{
+					"fluid": {
+						"max": "3rem",
+						"min": "2rem"
+					},
 					"name": "Extra Large",
-					"size": "clamp(2rem, 5vw, 4rem)",
+					"size": "3rem",
 					"slug": "x-large"
 				},
 				{
 					"name": "Extra Extra Large",
-					"size": "clamp(3.5rem, 7.5vw, 7rem)",
+					"size": "clamp(3.5rem, 7vw, 7rem)",
 					"slug": "xx-large"
 				}
 			],
@@ -426,7 +430,13 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "0px"
+			"blockGap": "0px",
+			"padding": {
+				"bottom": "var(--wp--preset--spacing--20)",
+				"left": "var(--wp--preset--spacing--20)",
+				"right": "var(--wp--preset--spacing--20)",
+				"top": "var(--wp--preset--spacing--20)"
+			}
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)",

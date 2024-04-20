@@ -26,10 +26,3 @@ Tags: portfolio, full-site-editing,
     margin-top: var(--wp--custom--border--offset) !important;
     margin-bottom: var(--wp--custom--border--offset) !important;
 }
-
-
-/* @media (max-width:1500px) {
-    body{
-        margin:var(--wp--preset--spacing--20) !important;
-    }
-} */
