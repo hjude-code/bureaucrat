@@ -14,33 +14,55 @@ Text Domain: bureaucratbranchtest
 Tags: full-site-editing, 
 */
 
-.wp-site-blocks>*:not(
+:is(
+    .wp-site-blocks,
+    section.wp-block-group,
+    .wp-block-template-part
+)>*:not(
     .wp-block-columns,
-    .wp-block-query
+    .wp-block-query,
+    section.wp-block-group,
+    .wp-block-template-part
 ){
     padding:var(--wp--preset--spacing--40) !important;
 }
 
-.wp-site-blocks>*+*{
+:is(
+    .wp-site-blocks,
+    section.wp-block-group
+)>*+*{
     border-top-width: var(--wp--custom--border--width);
     border-top-style: var(--wp--custom--border--style);
     border-top-color: var(--wp--preset--color--borderDark);
 }
 
-.is-layout-flow>:is(
-    .wp-block-columns
-){
+
+:is(
+    .is-layout-flow,
+    .wp-block-post
+)>:is(
+    .wp-block-columns,
+),
+.is-style-full-bleed{
     margin-left: calc(var(--wp--custom--border--padding)*-1);
     margin-right: calc(var(--wp--custom--border--padding)*-1);
 }
-.is-layout-flow>:is(
-    .wp-block-columns
-):last-child{
+:is(
+    .is-layout-flow,
+    .wp-block-post
+)>:is(
+    .wp-block-columns,
+):last-child,
+.is-style-full-bleed:last-child{
     margin-bottom: calc(var(--wp--custom--border--padding)*-1) !important;
 }
-.is-layout-flow>:is(
-    .wp-block-columns
-):first-child{
+:is(
+    .is-layout-flow,
+    .wp-block-post
+)>:is(
+    .wp-block-columns,
+):first-child,
+.is-style-full-bleed:first-child{
     margin-top: calc(var(--wp--custom--border--padding)*-1) !important;
 }
 
