@@ -1,70 +1,24 @@
-.wp-block-columns .wp-block-column{
-   container-name:column;
-   container-type: inline-size;
+.wp-block-column.is-style-sticky-column{
+    position: sticky;
+    top: 0px;
 }
 
+@media (min-width: 781px) {
+    .wp-block-column+.wp-block-column{
+        border-left-width: var(--wp--custom--border--width);
+        border-left-style: var(--wp--custom--border--style);
+        border-left-color: var(--wp--custom--border--color);
+    }
 
-.wp-block-column.is-vertically-aligned-top{
-    position: sticky !important;
-    top:var(--wp--custom--sticky-top);
-    z-index: 7 !important;
-}
-.wp-block-column.is-vertically-aligned-top:first-of-type{
-    z-index: 9 !important;
-}
-
-@media (max-width:600px) {
-    .wp-block-column.is-vertically-aligned-top:not(:first-of-type),
-    .wp-block-column .wp-block-column.is-vertically-aligned-top{
-        position: relative !important;
-        top:0px !important;
+    .wp-block-column.is-style-sticky-column-desktop{
+        position: sticky;
+        top: 0px;
     }
 }
 
-/*Remove padding from*/
-.wp-block-column > :is(
-    .wp-block-navigation,
-){
-    padding: 0px;
-}
 
-/*Remove Margins*/
-.wp-block-column>:is(
-    .has-background
-){
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
-
-/*expand to full width*/
-.wp-block-column>:is(
-    .wp-block-cover,
-    .wp-block-separator.is-style-wide,
-    .wp-block-columns,
-    .wp-block-image,
-    .wp-block-group
-){
-    margin-left:calc(var(--wp--preset--spacing--20)*-1) !important;
-    margin-right:calc(var(--wp--preset--spacing--20)*-1) !important;
-}
-
-
-/*last-child remove padding*/
-.wp-block-column>:is(
-    .wp-block-cover,
-    .wp-block-columns,
-    .wp-block-image,
-    .wp-block-group
-):last-child{
-    margin-bottom:calc(var(--wp--preset--spacing--20)*-1) !important;
-}
-
-/*firt-child remove padding*/
-.wp-block-column>:is(
-    .wp-block-cover,
-    .wp-block-columns,
-    .wp-block-image,
-    .wp-block-group
-):first-child{
-    margin-top:calc(var(--wp--preset--spacing--20)*-1) !important;
+@media (max-width: 781px) {
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+        border-bottom: 0px;
+    }
 }

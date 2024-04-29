@@ -1,6 +1,14 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"border": {
+			"radius": false,
+			"width": false
+		},
+		"layout": {
+			"contentSize": "600px",
+			"wideSize": "800px"
+		},
 		"color": {
 			"duotone": [
 				{
@@ -27,6 +35,16 @@
 					"color": "#111111",
 					"name": "Contrast",
 					"slug": "contrast"
+				},
+				{
+					"color": "#000000",
+					"name": "borderDark",
+					"slug": "borderDark"
+				},
+				{
+					"color": "#ffffff",
+					"name": "borderLight",
+					"slug": "borderLight"
 				},
 				{
 					"color": "#636363",
@@ -56,52 +74,14 @@
 			]
 		},
 		"custom": {
-			"border": {
-				"color": "var(--wp--preset--color--contrast)",
-				"offset": "-2px",
-				"soffset": "-1px",
-				"style": "solid",
-				"width": "2px"
-			},
-			"sticky-top": "0px"
-		},
-		"layout": {
-			"contentSize": "600px",
-			"wideSize": "1200px"
+			"border":{
+				"width":"2px",
+				"style":"solid",
+				"color":"var(--wp--preset--color--borderDark)",
+				"padding":"var(--wp--preset--spacing--40)"
+			}
 		},
 		"spacing": {
-			"spacingSizes": [
-				{
-					"name": "1",
-					"size": "1rem",
-					"slug": "10"
-				},
-				{
-					"name": "2",
-					"size": "min(1.5rem, 2vw)",
-					"slug": "20"
-				},
-				{
-					"name": "3",
-					"size": "min(2.5rem, 3vw)",
-					"slug": "30"
-				},
-				{
-					"name": "4",
-					"size": "min(4rem, 5vw)",
-					"slug": "40"
-				},
-				{
-					"name": "5",
-					"size": "min(6.5rem, 8vw)",
-					"slug": "50"
-				},
-				{
-					"name": "6",
-					"size": "min(10.5rem, 13vw)",
-					"slug": "60"
-				}
-			],
 			"units": [
 				"%",
 				"px",
@@ -112,336 +92,203 @@
 			]
 		},
 		"typography": {
-			"fluid": true,
 			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
 				{
 					"fontFace": [
 						{
-							"fontFamily": "IBM Plex Mono",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_normal_700.ttf"
-							]
-						},
-						{
-							"fontFamily": "IBM Plex Mono",
+							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_italic_700.ttf"
-							]
+							"fontWeight": "600",
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-600-italic.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6sfjptAgt5VM-kVkqdyU8n1ioSClNFgsARHNh4zg.woff2"
 						},
 						{
-							"fontFamily": "IBM Plex Mono",
+							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "italic",
 							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_italic_500.ttf"
-							]
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-500-italic.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6sfjptAgt5VM-kVkqdyU8n1ioSJlRFgsARHNh4zg.woff2"
 						},
 						{
-							"fontFamily": "IBM Plex Mono",
+							"fontFamily": "\"IBM Plex Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-100-normal.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6pfjptAgt5VM-kVkqdyU8n3kwq131hj-sNFQ.woff2"
+						},
+						{
+							"fontFamily": "\"IBM Plex Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-200-normal.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3uAL8lJPg-IUDNg.woff2"
+						},
+						{
+							"fontFamily": "\"IBM Plex Mono\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-300-normal.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3oQI8lJPg-IUDNg.woff2"
+						},
+						{
+							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_normal_500.ttf"
-							]
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-500-normal.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2"
 						},
 						{
-							"fontFamily": "IBM Plex Mono",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_italic_300.ttf"
-							]
-						},
-						{
-							"fontFamily": "IBM Plex Mono",
+							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_normal_300.ttf"
-							]
+							"fontWeight": "400",
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-400-normal.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F63fjptAgt5VM-kVkqdyU8n5i0g1l9kn-s.woff2"
 						},
 						{
-							"fontFamily": "IBM Plex Mono",
-							"fontStyle": "italic",
-							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_italic_100.ttf"
-							]
-						},
-						{
-							"fontFamily": "IBM Plex Mono",
+							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
-							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_normal_100.ttf"
-							]
+							"fontWeight": "600",
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-600-normal.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3vAO8lJPg-IUDNg.woff2"
 						},
 						{
-							"fontFamily": "IBM Plex Mono",
+							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_normal_700.ttf"
-							]
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-700-normal.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3pQP8lJPg-IUDNg.woff2"
 						},
 						{
-							"fontFamily": "IBM Plex Mono",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_italic_700.ttf"
-							]
-						},
-						{
-							"fontFamily": "IBM Plex Mono",
-							"fontStyle": "italic",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_italic_500.ttf"
-							]
-						},
-						{
-							"fontFamily": "IBM Plex Mono",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_normal_500.ttf"
-							]
-						},
-						{
-							"fontFamily": "IBM Plex Mono",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_italic_300.ttf"
-							]
-						},
-						{
-							"fontFamily": "IBM Plex Mono",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_normal_300.ttf"
-							]
-						},
-						{
-							"fontFamily": "IBM Plex Mono",
+							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "italic",
 							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_italic_100.ttf"
-							]
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-100-italic.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6rfjptAgt5VM-kVkqdyU8n1ioStndgre4dFcFh.woff2"
 						},
 						{
-							"fontFamily": "IBM Plex Mono",
-							"fontStyle": "normal",
-							"fontWeight": "100",
-							"src": [
-								"file:./assets/fonts/ibm-plex-mono_normal_100.ttf"
-							]
+							"fontFamily": "\"IBM Plex Mono\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-200-italic.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6sfjptAgt5VM-kVkqdyU8n1ioSGlZFgsARHNh4zg.woff2"
+						},
+						{
+							"fontFamily": "\"IBM Plex Mono\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-300-italic.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6sfjptAgt5VM-kVkqdyU8n1ioSflVFgsARHNh4zg.woff2"
+						},
+						{
+							"fontFamily": "\"IBM Plex Mono\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-400-italic.svg",
+							"src": "http://bureaucrat.local/wp-content/fonts/F6pfjptAgt5VM-kVkqdyU8n1ioq131hj-sNFQ.woff2"
 						}
 					],
-					"fontFamily": "IBM Plex Mono",
+					"fontFamily": "IBM Plex Mono, monospace",
+					"name": "IBM Plex Mono",
+					"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono.svg",
 					"slug": "ibm-plex-mono"
-				}
-			],
-			"fontSizes": [
-				{
-					"fluid": false,
-					"name": "Small",
-					"size": "0.9rem",
-					"slug": "small"
-				},
-				{
-					"fluid": false,
-					"name": "Medium",
-					"size": "1.05rem",
-					"slug": "medium"
-				},
-				{
-					"fluid": {
-						"max": "1.85rem",
-						"min": "1.39rem"
-					},
-					"name": "Large",
-					"size": "1.85rem",
-					"slug": "large"
-				},
-				{
-					"fluid": {
-						"max": "3rem",
-						"min": "2rem"
-					},
-					"name": "Extra Large",
-					"size": "3rem",
-					"slug": "x-large"
-				},
-				{
-					"name": "Extra Extra Large",
-					"size": "clamp(3.5rem, 7vw, 7rem)",
-					"slug": "xx-large"
 				}
 			],
 			"writingMode": true
 		},
-		"useRootPaddingAwareAlignments": false
+		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
 		"blocks": {
-			"core/button": {
-				"color": {
-					"background": "transparent",
-					"text": "var(--wp--preset--color--contrast)"
-				},
-				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--20)",
-					"padding": {
-						"bottom": "var(--wp--preset--spacing--20)",
-						"left": "var(--wp--preset--spacing--20)",
-						"right": "var(--wp--preset--spacing--20)",
-						"top": "var(--wp--preset--spacing--20)"
-					}
-				}
-			},
-			"core/buttons": {
-				"spacing": {
-					"blockGap": "var(--wp--custom--border--width)"
-				}
-			},
 			"core/column": {
-				"outline": {
-					"color": "var(--wp--custom--border--color)",
-					"style": "var(--wp--custom--border--style)",
-					"width": "var(--wp--custom--border--width)"
+				"spacing": {
+					"padding": {
+						"bottom": "var(--wp--custom--border--padding)",
+						"left": "var(--wp--custom--border--padding)",
+						"right": "var(--wp--custom--border--padding)",
+						"top": "var(--wp--custom--border--padding)"
+					},
+					"margin": {
+						"bottom":"calc( var(--wp--custom--border--width) *-1) !important",
+						"top":"calc( var(--wp--custom--border--width) *-1) !important",
+						"right":"calc( var(--wp--custom--border--width) *-1) !important"
+					}
 				},
-				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--20)",
-					"padding": {
-						"bottom": "var(--wp--preset--spacing--20)",
-						"left": "var(--wp--preset--spacing--20)",
-						"right": "var(--wp--preset--spacing--20)",
-						"top": "var(--wp--preset--spacing--20)"
-					}
-				}
-			},
-			"core/columns": {
-				"spacing": {
-					"blockGap": "var(--wp--custom--border--width)"
-				}
-			},
-			"core/cover": {
-				"spacing": {
-					"padding": {
-						"bottom": "0px",
-						"left": "0px",
-						"right": "0px",
-						"top": "0px"
-					}
-				}
-			},
-			"core/group": {
-				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--20)",
-					"padding": {
-						"bottom": "var(--wp--preset--spacing--20)",
-						"left": "var(--wp--preset--spacing--20)",
-						"right": "var(--wp--preset--spacing--20)",
-						"top": "var(--wp--preset--spacing--20)"
-					}
-				}
-			},
-			"core/list": {
-				"spacing": {
-					"padding": {
-						"left": "1em"
-					}
-				}
-			},
-			"core/navigation": {
-				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--20)",
-					"padding": {
-						"bottom": "var(--wp--preset--spacing--20)",
-						"left": "var(--wp--preset--spacing--20)",
-						"right": "var(--wp--preset--spacing--20)",
-						"top": "var(--wp--preset--spacing--20)"
-					}
-				}
-			},
-			"core/post-title": {
-				"spacing": {
-					"padding": {
-						"bottom": "var(--wp--preset--spacing--20)",
-						"left": "var(--wp--preset--spacing--20)",
-						"right": "var(--wp--preset--spacing--20)",
-						"top": "var(--wp--preset--spacing--20)"
-					}
-				}
-			},
-			"core/site-title": {
-				"spacing": {
-					"margin": "0"
-				}
-			},
-			"core/social-link": {
 				"border": {
-					"radius": "0px !important"
+					"bottom": {
+						"color":"var(--wp--custom--border--color)",
+						"width":"var(--wp--custom--border--width)",
+						"style":"var(--wp--custom--border--style)"
+					},
+					"top": {
+						"color":"var(--wp--custom--border--color)",
+						"width":"var(--wp--custom--border--width)",
+						"style":"var(--wp--custom--border--style)"
+					},
+					"right": {
+						"color":"var(--wp--custom--border--color)",
+						"width":"var(--wp--custom--border--width)",
+						"style":"var(--wp--custom--border--style)"
+					}
+					
+				}
+			},
+			"core/paragraph": {
+				"spacing": {
+					"padding": {
+						"bottom": "0",
+						"top": "0"
+					}
+				}
+			},
+			"core/query-pagination": {
+				"spacing": {
+					"margin":"calc( var(--wp--custom--border--width) *-1) !important"
+				},
+				"border": {
+					"color":"var(--wp--custom--border--color)",
+					"style":"var(--wp--custom--border--style)",
+					"width":"var(--wp--custom--border--width)"
+				},
+				"css": ".wp-block-query-pagination{position:relative; z-index:4;}"
+			},
+			"core/query-pagination-numbers": {
+				"spacing": {
+					"margin":"calc( var(--wp--custom--border--width) *-1) !important"
+				},
+				"border": {
+					"color":"var(--wp--custom--border--color)",
+					"style":"var(--wp--custom--border--style)",
+					"width":"var(--wp--custom--border--width)"
 				}
 			}
 		},
-		"color": {
-			"background": "var(--wp--preset--color--base)"
-		},
-		"elements": {
-			"button": {
-				":hover": {
-					"typography": {
-						"fontStyle": "italic"
-					}
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
-				}
-			},
-			"caption": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
-				}
-			},
-			"heading": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
-				}
-			},
-			"link": {
-				":hover": {
-					"typography": {
-						"fontStyle": "italic"
-					}
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)",
-					"textDecoration": "none"
-				}
-			}
+		"border": {
+			"color": "var(--wp--custom--border--color)",
+			"style": "var(--wp--custom--border--style)",
+			"width": "var(--wp--custom--border--width)"
 		},
 		"spacing": {
 			"blockGap": "0px",
+			"margin": {
+				"bottom": "var(--wp--custom--border--padding)",
+				"left": "var(--wp--custom--border--padding)",
+				"right": "var(--wp--custom--border--padding)",
+				"top": "var(--wp--custom--border--padding)"
+			},
 			"padding": {
-				"bottom": "var(--wp--preset--spacing--20)",
-				"left": "var(--wp--preset--spacing--20)",
-				"right": "var(--wp--preset--spacing--20)",
-				"top": "var(--wp--preset--spacing--20)"
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)",
-			"fontStyle": "normal",
-			"fontWeight": "400"
+			"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
 		}
 	},
 	"templateParts": [

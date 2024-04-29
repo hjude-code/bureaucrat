@@ -1,0 +1,7 @@
+.wp-block-post-template .wp-block-post{
+    padding: var(--wp--custom--border--padding);
+    border-color: var(--wp--custom--border--color);
+    border-style: var(--wp--custom--border--style);
+    border-width: var(--wp--custom--border--width);
+    margin: calc(var(--wp--custom--border--width)*-1);
+}

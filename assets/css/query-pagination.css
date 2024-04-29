@@ -1,0 +1,23 @@
+.wp-block-query-pagination-numbers{
+    display: flex;
+}
+.is-vertical .wp-block-query-pagination-numbers{
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.wp-block-query-pagination-numbers .page-numbers{
+    display: block;
+    padding:var(--wp--custom--border--padding);
+    border-color: var(--wp--custom--border--color);
+    border-style: var(--wp--custom--border--style);
+    border-width: 0px;
+    flex-grow: 1;
+}
+.wp-block-query-pagination-numbers .page-numbers + .page-numbers{
+    border-left-width: var(--wp--custom--border--width);
+}
+.is-vertical .wp-block-query-pagination-numbers .page-numbers + .page-numbers{
+    border-left-width: 0px;
+    border-top-width: var(--wp--custom--border--width);
+}

@@ -1,6 +1,0 @@
-/*remove padding from group*/
-.wp-block-group:has(>:is(
-    .wp-block-columns
-)){
-    padding: 0px;
-}
