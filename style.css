@@ -22,7 +22,8 @@ Tags: full-site-editing,
     .wp-block-columns,
     .wp-block-query,
     section.wp-block-group,
-    .wp-block-template-part
+    .wp-block-template-part,
+    .is-style-offset
 ){
     padding:var(--wp--preset--spacing--40) !important;
 }
@@ -42,6 +43,7 @@ Tags: full-site-editing,
     .wp-block-post
 )>:is(
     .wp-block-columns,
+    .is-style-offset
 ),
 .is-style-full-bleed{
     margin-left: calc(var(--wp--custom--border--padding)*-1);
@@ -52,6 +54,7 @@ Tags: full-site-editing,
     .wp-block-post
 )>:is(
     .wp-block-columns,
+    .is-style-offset
 ):last-child,
 .is-style-full-bleed:last-child{
     margin-bottom: calc(var(--wp--custom--border--padding)*-1) !important;
@@ -61,6 +64,7 @@ Tags: full-site-editing,
     .wp-block-post
 )>:is(
     .wp-block-columns,
+    .is-style-offset
 ):first-child,
 .is-style-full-bleed:first-child{
     margin-top: calc(var(--wp--custom--border--padding)*-1) !important;
