@@ -6,11 +6,12 @@
 			"width": false
 		},
 		"color": {
+			"customDuotone": true,
 			"duotone": [
 				{
 					"colors": [
-						"var(--wp--preset--color--base)",
-						"var(--wp--preset--color--contrast)"
+						"#ffffff",
+						"#000000"
 					],
 					"name": "B/W Invert",
 					"slug": "BW-invert"
@@ -235,6 +236,33 @@
 						"right": "var(--wp--custom--border--padding)",
 						"top": "var(--wp--custom--border--padding)"
 					}
+				}
+			},
+			"core/navigation": {
+				"elements": {
+					"h1":{
+						"spacing": {
+							"margin": {
+								"top":"0px",
+								"bottom":"0px"
+							}
+						}
+					},
+					"link": {
+						"spacing": {
+							"padding": {
+								"bottom":"0px",
+								"top":"0px",
+								"left":"0px",
+								"right":"0px"
+							}
+						}
+					}
+				}
+			},
+			"core/site-title": {
+				"elements": {
+					
 				}
 			},
 			"core/paragraph": {
