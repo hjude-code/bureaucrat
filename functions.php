@@ -50,6 +50,13 @@ function hjudesite_block_styles() {
             'label'=> __( 'peakaboo', 'bureaucrat' ),
         )
     );
+    register_block_style(
+        'core/list',
+        array(
+            'name'=> 'cell-list',
+            'label'=> __( 'cell', 'bureaucrat' ),
+        )
+    );
 }
 
 
