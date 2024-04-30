@@ -306,12 +306,6 @@
 		},
 		"spacing": {
 			"blockGap": "0px",
-			"margin": {
-				"bottom": "var(--wp--custom--border--padding)",
-				"left": "var(--wp--custom--border--padding)",
-				"right": "var(--wp--custom--border--padding)",
-				"top": "var(--wp--custom--border--padding)"
-			},
 			"padding": {
 				"bottom": "0px",
 				"left": "0px",

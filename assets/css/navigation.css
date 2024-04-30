@@ -1,0 +1,9 @@
+.wp-block-navigation.is-style-primary-navigation{
+    position:sticky;
+    top: 0px;
+    z-index: 150;
+}
+
+.wp-block-navigation__container{
+    padding: 0px !important;
+}
