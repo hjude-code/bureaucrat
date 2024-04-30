@@ -27,7 +27,8 @@
     border-width: var(--wp--custom--border--width);
     border-right-width: 0px;
     border-style: var(--wp--custom--border--style);
-    padding:var(--wp--custom--border--padding) !important;
+    padding-left:var(--wp--custom--border--padding) !important;
+    padding-right:var(--wp--custom--border--padding) !important;
     height: var(--height);
     overflow: hidden;
     flex-grow: 1;
