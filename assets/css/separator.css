@@ -1,0 +1,12 @@
+.wp-block-separator.is-style-extra-wide{
+    width:calc(100% + var(--wp--custom--border--padding) *2);
+    flex-grow: 1;
+    margin-left: calc(var(--wp--custom--border--padding) * -1);
+    margin-right: calc(var(--wp--custom--border--padding) * -1);
+
+}
+
+.wp-block-separator{
+    border-top-width: 0px;
+    border-bottom-width: var(--wp--custom--border--width);
+}
