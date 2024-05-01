@@ -1,0 +1,16 @@
+.wp-block-cover.is-style-link-cover{
+    overflow: hidden;
+}
+
+
+.wp-block-cover.is-style-link-cover:hover img{
+    transform: translateX(0%) translateY(0%) scale(100%);
+
+}
+.wp-block-cover.is-style-link-cover:hover img{
+
+    --ofstX: calc(var(--pcntX) * -10%);
+    --ofstY: calc(var(--pcntY) * -10%);
+
+    transform: translateX(var(--ofstX)) translateY(var(--ofstY)) scale(120%) ;
+}

@@ -9,6 +9,13 @@ function hjudesite_block_styles() {
         )
     );
     register_block_style(
+        'core/cover',
+        array(
+            'name'=> 'link-cover',
+            'label'=> __( 'link', 'bureaucrat' ),
+        )
+    );
+    register_block_style(
         'core/site-logo',
         array(
             'name'=> 'invert',
@@ -159,6 +166,13 @@ function bureaucrat_scripts() {
     wp_enqueue_script(
 		'image-peak',
 		get_parent_theme_file_uri( 'assets/script/image-peak.js' ),
+		array(),
+		'1.0',
+		true
+	);
+    wp_enqueue_script(
+		'cover-link',
+		get_parent_theme_file_uri( 'assets/script/cover-link.js' ),
 		array(),
 		'1.0',
 		true
