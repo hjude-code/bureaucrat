@@ -21,14 +21,20 @@ const trackCover = (e) =>{
 linkCovers.forEach((cover)=>{
     cover.addEventListener('mousemove', trackCover, this);
 
-    let firstLink = cover.querySelector('a').getAttribute('href');
-    let linkTarget = cover.querySelector('a').getAttribute('target');
-    console.log(firstLink)
 
-    let linkElement = document.createElement('a');
-    linkElement.classList.add('coverLink');
-    linkElement.setAttribute('href', firstLink);
-    linkElement.setAttribute('target', linkTarget);
 
-    cover.appendChild(linkElement);
+    let link = cover.querySelector('a');
+    if(link){
+
+        let firstLink = link.getAttribute('href');
+        let linkTarget = link.getAttribute('target');
+
+        let linkElement = document.createElement('a');
+        linkElement.classList.add('coverLink');
+        linkElement.setAttribute('href', firstLink);
+        linkElement.setAttribute('target', linkTarget);
+    
+        cover.appendChild(linkElement);
+    }
+
 })

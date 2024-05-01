@@ -2,6 +2,9 @@
     overflow: hidden;
     position: relative;
 }
+.wp-block-cover.is-style-link-cover:hover{
+    cursor:pointer;
+}
 
 
 .wp-block-cover.is-style-link-cover:hover img{
