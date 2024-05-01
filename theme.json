@@ -240,29 +240,24 @@
 			},
 			"core/navigation": {
 				"elements": {
-					"h1":{
+					"h1": {
 						"spacing": {
 							"margin": {
-								"top":"0px",
-								"bottom":"0px"
+								"bottom": "0px",
+								"top": "0px"
 							}
 						}
 					},
 					"link": {
 						"spacing": {
 							"padding": {
-								"bottom":"0px",
-								"top":"0px",
-								"left":"0px",
-								"right":"0px"
+								"bottom": "0px",
+								"left": "0px",
+								"right": "0px",
+								"top": "0px"
 							}
 						}
 					}
-				}
-			},
-			"core/site-title": {
-				"elements": {
-					
 				}
 			},
 			"core/paragraph": {
@@ -313,6 +308,9 @@
 				"spacing": {
 					"margin": "calc( var(--wp--custom--border--width) *-1) !important"
 				}
+			},
+			"core/site-title": {
+				"elements": []
 			},
 			"core/social-links": {
 				"spacing": {
