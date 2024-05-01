@@ -1,5 +1,6 @@
 .wp-block-cover.is-style-link-cover{
     overflow: hidden;
+    position: relative;
 }
 
 
@@ -13,4 +14,12 @@
     --ofstY: calc(var(--pcntY) * -10%);
 
     transform: translateX(var(--ofstX)) translateY(var(--ofstY)) scale(120%) ;
+}
+
+.wp-block-cover.is-style-link-cover .coverLink{
+    position: absolute;
+    display: block;
+    inset: 0;
+    background-color: transparent;
+    z-index: 5;
 }
