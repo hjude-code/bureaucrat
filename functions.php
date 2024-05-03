@@ -140,7 +140,25 @@ function bureaucrat_block_stylesheets() {
             'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
             'path'   => get_parent_theme_file_path( 'assets/css/post-template.css' ),
         )
-    );  
+    ); 
+    wp_enqueue_block_style(
+        'core/social-links',
+        array(
+            'handle' => 'bureaucrat-social-links-style',
+            'src'    => get_parent_theme_file_uri( 'assets/css/social-links.css' ),
+            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
+            'path'   => get_parent_theme_file_path( 'assets/css/social-links.css' ),
+        )
+    );
+    wp_enqueue_block_style(
+        'core/button',
+        array(
+            'handle' => 'bureaucrat-button-style',
+            'src'    => get_parent_theme_file_uri( 'assets/css/button.css' ),
+            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
+            'path'   => get_parent_theme_file_path( 'assets/css/button.css' ),
+        )
+    );    
 
     // Add support for block styles.
    add_theme_support( 'wp-block-styles' );

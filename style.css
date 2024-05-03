@@ -66,3 +66,23 @@ Tags: full-site-editing,
     margin-top: calc(var(--wp--custom--border--padding)*-1) !important;
 }
 
+
+
+a{
+    position: relative;
+}
+a::before{
+    content:'';
+    display: block;
+    position: absolute;
+    border-bottom-width: var(--wp--custom--border--width);
+    border-bottom: red;
+    border-bottom-style: solid;
+    inset: 0% 100% 0% 0%;
+    transform: translateX(0%);
+    transition: 0.25s;
+}
+a:hover::before{
+    inset: 0% 50% 0% 0%;
+    /* transform: translateX(20%); */
+}

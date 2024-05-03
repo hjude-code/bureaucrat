@@ -1,0 +1,5 @@
+.wp-block-social-links .wp-social-link:hover{
+    transform: none !important;
+    cursor: pointer !important;
+    border-radius: 0px;
+}
