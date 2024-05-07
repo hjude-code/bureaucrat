@@ -89,7 +89,15 @@ function bureaucrat_block_stylesheets() {
             'path'   => get_parent_theme_file_path( 'assets/css/group.css' ),
         )
     );
-
+    wp_enqueue_block_style(
+        'core/query',
+        array(
+            'handle' => 'bureaucrat-query-style',
+            'src'    => get_parent_theme_file_uri( 'assets/css/query.css' ),
+            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
+            'path'   => get_parent_theme_file_path( 'assets/css/query.css' ),
+        )
+    );
     wp_enqueue_block_style(
         'core/spacer',
         array(
