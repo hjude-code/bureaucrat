@@ -26,3 +26,12 @@
     background-color: transparent;
     z-index: 5;
 }
+
+/*group-link-block*/
+.wp-block-cover__background{
+    display: none;
+}
+/*group-link-block*/
+.wp-block-cover:hover .wp-block-cover__background{
+    display: block;
+}
