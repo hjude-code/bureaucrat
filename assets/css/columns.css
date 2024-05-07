@@ -1,7 +1,7 @@
 .wp-block-column.is-style-sticky-column{
     position: sticky;
     top: 0px;
-    top:var(--navHeight);
+    top:calc(var(--navHeight) - var(--wp--custom--border--width));
 }
 
 @media (min-width: 781px) {
@@ -14,7 +14,7 @@
     .wp-block-column.is-style-sticky-column-desktop{
         position: sticky;
         top: 0px;
-        top:var(--navHeight);
+        top:calc(var(--navHeight) - var(--wp--custom--border--width));
     }
 }
 

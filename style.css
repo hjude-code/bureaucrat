@@ -86,3 +86,11 @@ a:hover::before{
     inset: 0% 50% 0% 0%;
     /* transform: translateX(20%); */
 }
+
+.is-position-sticky{
+    top:calc(var(--navHeight) - var(--wp--custom--border--width)) !important;
+    border-bottom-color: var(--wp--custom--border--color);
+    border-bottom-style: var(--wp--custom--border--style);
+    border-bottom-width: var(--wp--custom--border--width);
+    margin-bottom: calc(var(--wp--custom--border--width)*-1);
+}
