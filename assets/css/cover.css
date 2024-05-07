@@ -28,10 +28,10 @@
 }
 
 /*group-link-block*/
-.wp-block-cover__background{
+.wp-block-cover.wp-block-cover.is-style-link-cover .wp-block-cover__background{
     display: none;
 }
 /*group-link-block*/
-.wp-block-cover:hover .wp-block-cover__background{
+.wp-block-cover.wp-block-cover.is-style-link-cover .wp-block-cover__background:hover .wp-block-cover__background{
     display: block;
 }
