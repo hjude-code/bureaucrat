@@ -91,6 +91,17 @@ function bureaucrat_block_stylesheets() {
     );
 
     wp_enqueue_block_style(
+        'core/spacer',
+        array(
+            'handle' => 'bureaucrat-spacer-style',
+            'src'    => get_parent_theme_file_uri( 'assets/css/spacer.css' ),
+            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
+            'path'   => get_parent_theme_file_path( 'assets/css/spacer.css' ),
+        )
+    );
+
+
+    wp_enqueue_block_style(
         'core/site-logo',
         array(
             'handle' => 'bureaucrat-site-logo-style',
