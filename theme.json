@@ -106,97 +106,83 @@
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "italic",
 							"fontWeight": "600",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-600-italic.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6sfjptAgt5VM-kVkqdyU8n1ioSClNFgsARHNh4zg.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "italic",
 							"fontWeight": "500",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-500-italic.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6sfjptAgt5VM-kVkqdyU8n1ioSJlRFgsARHNh4zg.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "100",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-100-normal.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6pfjptAgt5VM-kVkqdyU8n3kwq131hj-sNFQ.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "200",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-200-normal.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3uAL8lJPg-IUDNg.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "300",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-300-normal.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3oQI8lJPg-IUDNg.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "500",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-500-normal.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3twJ8lJPg-IUDNg.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "400",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-400-normal.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F63fjptAgt5VM-kVkqdyU8n5i0g1l9kn-s.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "600",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-600-normal.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3vAO8lJPg-IUDNg.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "normal",
 							"fontWeight": "700",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-700-normal.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6qfjptAgt5VM-kVkqdyU8n3pQP8lJPg-IUDNg.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "italic",
 							"fontWeight": "100",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-100-italic.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6rfjptAgt5VM-kVkqdyU8n1ioStndgre4dFcFh.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "italic",
 							"fontWeight": "200",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-200-italic.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6sfjptAgt5VM-kVkqdyU8n1ioSGlZFgsARHNh4zg.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "italic",
 							"fontWeight": "300",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-300-italic.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6sfjptAgt5VM-kVkqdyU8n1ioSflVFgsARHNh4zg.woff2"
 						},
 						{
 							"fontFamily": "\"IBM Plex Mono\"",
 							"fontStyle": "italic",
 							"fontWeight": "400",
-							"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono-400-italic.svg",
 							"src": "http://bureaucrat.local/wp-content/fonts/F6pfjptAgt5VM-kVkqdyU8n1ioq131hj-sNFQ.woff2"
 						}
 					],
 					"fontFamily": "IBM Plex Mono, monospace",
 					"name": "IBM Plex Mono",
-					"preview": "https://s.w.org/images/fonts/17.7/previews/ibm-plex-mono/ibm-plex-mono.svg",
 					"slug": "ibm-plex-mono"
 				}
 			],
