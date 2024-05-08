@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: index
- * Slug: bureaucratbranchtest/index
+ * Slug: Bureaucrat/index
  * Categories: hidden
  * Inserter: no
  */
@@ -44,13 +44,19 @@
 <div class="wp-block-query alignfull"><!-- wp:post-template {"style":{"typography":{"textTransform":"none"}},"layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:post-title /-->
 
-<!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"customOverlayColor":"#d51a1a","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim" style="background-color:#d51a1a"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title /--></div></div>
+<!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"overlayColor":"borderDark","isUserOverlayColor":true,"className":"is-style-link-cover","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-style-link-cover"><span aria-hidden="true" class="wp-block-cover__background has-border-dark-background-color has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"is-style-preview-pane","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-preview-pane"><!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:paragraph -->
+<p>test of a preivew pane</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div></div>
 <!-- /wp:cover -->
 <!-- /wp:post-template --></div>
 <!-- /wp:query -->
 
-<!-- wp:columns {"verticalAlignment":null,"isStackedOnMobile":false} -->
+<!-- wp:columns {"isStackedOnMobile":false} -->
 <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","backgroundColor":"accent","className":"is-style-sticky-column"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column has-accent-background-color has-background" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
 <h3 class="wp-block-heading has-base-2-color has-text-color has-link-color" style="writing-mode:vertical-rl">who</h3>
@@ -58,7 +64,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:columns {"verticalAlignment":null} -->
+<div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"50vw","className":"is-style-sticky-column-desktop"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column-desktop" style="flex-basis:50vw"><!-- wp:heading -->
 <h2 class="wp-block-heading">Heading</h2>
@@ -78,7 +84,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":null,"isStackedOnMobile":false} -->
+<!-- wp:columns {"isStackedOnMobile":false} -->
 <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","backgroundColor":"accent","className":"is-style-sticky-column"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column has-accent-background-color has-background" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
 <h3 class="wp-block-heading has-base-2-color has-text-color has-link-color" style="writing-mode:vertical-rl">What</h3>
@@ -86,7 +92,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:columns {"verticalAlignment":null} -->
+<div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"50vw","className":"is-style-sticky-column-desktop"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column-desktop" style="flex-basis:50vw"><!-- wp:heading -->
 <h2 class="wp-block-heading">Design that does more than just look good, Design that works.</h2>
@@ -128,7 +134,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":null,"isStackedOnMobile":false} -->
+<!-- wp:columns {"isStackedOnMobile":false} -->
 <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","backgroundColor":"accent","className":"is-style-sticky-column"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column has-accent-background-color has-background" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
 <h3 class="wp-block-heading has-base-2-color has-text-color has-link-color" style="writing-mode:vertical-rl">How</h3>
@@ -136,7 +142,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:columns {"verticalAlignment":null} -->
+<div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"50vw","className":"is-style-sticky-column-desktop"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column-desktop" style="flex-basis:50vw"><!-- wp:heading -->
 <h2 class="wp-block-heading">Heading</h2>
@@ -214,7 +220,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":null,"isStackedOnMobile":false} -->
+<!-- wp:columns {"isStackedOnMobile":false} -->
 <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","backgroundColor":"accent","className":"is-style-sticky-column"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column has-accent-background-color has-background" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
 <h3 class="wp-block-heading has-base-2-color has-text-color has-link-color" style="writing-mode:vertical-rl">Where</h3>
@@ -222,7 +228,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"2px"}}} -->
-<div class="wp-block-column"><!-- wp:columns {"verticalAlignment":null} -->
+<div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20vw","className":"is-style-sticky-column-desktop"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column-desktop" style="flex-basis:20vw"><!-- wp:heading -->
 <h2 class="wp-block-heading">Adweek</h2>
@@ -260,7 +266,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":null} -->
+<!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20vw","className":"is-style-sticky-column-desktop"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column-desktop" style="flex-basis:20vw"><!-- wp:heading -->
 <h2 class="wp-block-heading">SKDK</h2>
@@ -298,7 +304,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":null} -->
+<!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20vw","className":"is-style-sticky-column-desktop"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column-desktop" style="flex-basis:20vw"><!-- wp:heading -->
 <h2 class="wp-block-heading">w14 Labs</h2>
@@ -322,7 +328,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":null} -->
+<!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20vw","className":"is-style-sticky-column-desktop"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column-desktop" style="flex-basis:20vw"><!-- wp:heading -->
 <h2 class="wp-block-heading">NYC Department of Sanitation</h2>
@@ -346,7 +352,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":null} -->
+<!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"20vw","className":"is-style-sticky-column-desktop"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column-desktop" style="flex-basis:20vw"><!-- wp:heading -->
 <h2 class="wp-block-heading">Pratt Institute</h2>
@@ -372,7 +378,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns {"verticalAlignment":null,"isStackedOnMobile":false} -->
+<!-- wp:columns {"isStackedOnMobile":false} -->
 <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"verticalAlignment":"top","width":"1.5em","backgroundColor":"accent","className":"is-style-sticky-column"} -->
 <div class="wp-block-column is-vertically-aligned-top is-style-sticky-column has-accent-background-color has-background" style="flex-basis:1.5em"><!-- wp:heading {"level":3,"style":{"typography":{"writingMode":"vertical-rl"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
 <h3 class="wp-block-heading has-base-2-color has-text-color has-link-color" style="writing-mode:vertical-rl">Why</h3>

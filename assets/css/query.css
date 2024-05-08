@@ -1,0 +1,6 @@
+.wp-block-group>.wp-block-query{
+    margin-left:calc((var(--wp--custom--border--padding) + var(--wp--custom--border--width)) * -1);
+    margin-right:calc((var(--wp--custom--border--padding) + var(--wp--custom--border--width)) * -1);
+    border-width: 0px !important;
+    margin-top:calc(var(--wp--custom--border--width));
+}

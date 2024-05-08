@@ -1,7 +1,7 @@
 /*
-Theme Name: bureaucrat-branchTest
+Theme Name: Bureaucrat
 Theme URI: 
-Author: 
+Author: Hjude
 Author URI: 
 Description: 
 Requires at least: 6.0
@@ -10,7 +10,7 @@ Requires PHP: 5.7
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: bureaucratbranchtest
+Text Domain: Bureaucrat
 Tags: full-site-editing, 
 */
 
@@ -42,7 +42,7 @@ Tags: full-site-editing,
     .is-layout-flow,
     .wp-block-post
 )>:is(
-    .wp-block-columns,
+    .wp-block-columns
     .is-style-offset
 ),
 .is-style-full-bleed{
@@ -70,3 +70,31 @@ Tags: full-site-editing,
     margin-top: calc(var(--wp--custom--border--padding)*-1) !important;
 }
 
+
+
+a{
+    position: relative;
+}
+a::before{
+    content:'';
+    display: block;
+    position: absolute;
+    border-bottom-width: var(--wp--custom--border--width);
+    border-bottom: red;
+    border-bottom-style: solid;
+    inset: 0% 100% 0% 0%;
+    transform: translateX(0%);
+    transition: 0.25s;
+}
+a:hover::before{
+    inset: 0% 50% 0% 0%;
+    /* transform: translateX(20%); */
+}
+
+.is-position-sticky{
+    top:calc(var(--navHeight) - var(--wp--custom--border--width)) !important;
+    border-bottom-color: var(--wp--custom--border--color);
+    border-bottom-style: var(--wp--custom--border--style);
+    border-bottom-width: var(--wp--custom--border--width);
+    margin-bottom: calc(var(--wp--custom--border--width)*-1);
+}

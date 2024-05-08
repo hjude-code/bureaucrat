@@ -1,0 +1,12 @@
+/* group-preview-pane*/
+:is(
+    .wp-block-cover 
+) .wp-block-group.is-style-preview-pane{
+    display: none;
+}
+
+:is(
+    .wp-block-cover 
+):hover .wp-block-group.is-style-preview-pane{
+    display: block;
+}
