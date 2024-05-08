@@ -42,7 +42,7 @@ Tags: full-site-editing,
     .is-layout-flow,
     .wp-block-post
 )>:is(
-    .wp-block-columns
+    .wp-block-columns,
     .is-style-offset
 ),
 .is-style-full-bleed{
