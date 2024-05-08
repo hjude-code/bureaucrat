@@ -6,7 +6,7 @@
 
 .is-style-offset:not(:has(a)),
 .is-style-offset a{
-    width: 100%;
+    /* width: 100%; */
     flex-grow: 1;
     display: flex !important;
     --height:2em;

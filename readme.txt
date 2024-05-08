@@ -1,5 +1,5 @@
 === bureaucrat-branchTest ===
-Contributors: 
+Contributors: Hjude
 Requires at least: 6.0
 Tested up to: 6.4.3
 Requires PHP: 5.7
