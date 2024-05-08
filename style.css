@@ -17,20 +17,23 @@ Tags: full-site-editing
 :is(
     .wp-site-blocks,
     section.wp-block-group,
-    .wp-block-template-part
+    .wp-block-template-part,
+    .wp-block-post-content
 )>*:not(
     .wp-block-columns,
     .wp-block-query,
     section.wp-block-group,
     .wp-block-template-part,
-    .is-style-offset
+    .is-style-offset,
+    .wp-block-post-content
 ){
     padding:var(--wp--preset--spacing--40) !important;
 }
 
 :is(
     .wp-site-blocks,
-    section.wp-block-group
+    section.wp-block-group,
+    .wp-block-post-content
 )>*+*{
     border-top-width: var(--wp--custom--border--width);
     border-top-style: var(--wp--custom--border--style);
