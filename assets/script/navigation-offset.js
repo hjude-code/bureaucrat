@@ -1,4 +1,12 @@
 const primaryNav = document.querySelector('.is-style-primary-navigation');
-const navheight = primaryNav.getBoundingClientRect().height;
+let navHeight
+
+
+if(primaryNav !== null){
+    navheight = primaryNav.getBoundingClientRect().height;
+}else{
+    navheight = 0
+}
+
 
 document.body.style.setProperty('--navHeight', `${navheight}px`);
