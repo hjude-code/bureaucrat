@@ -6,6 +6,7 @@
     position: sticky;
     top: 0px;
     top:calc(var(--navHeight) - var(--wp--custom--border--width));
+    bottom: 0px;
 }
 
 @media (min-width: 781px) {
@@ -19,6 +20,7 @@
         position: sticky;
         top: 0px;
         top:calc(var(--navHeight) - var(--wp--custom--border--width));
+        bottom: 0px;
     }
 }
 
