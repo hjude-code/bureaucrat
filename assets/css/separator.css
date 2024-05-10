@@ -8,5 +8,5 @@
 
 .wp-block-separator{
     border-top-width: 0px;
-    border-bottom-width: var(--wp--custom--border--width);
+    min-height:var(--wp--custom--border--width);
 }
