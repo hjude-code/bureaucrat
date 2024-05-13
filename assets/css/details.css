@@ -1,0 +1,4 @@
+.wp-block-details.is-style-left-tab{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}

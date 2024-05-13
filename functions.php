@@ -16,10 +16,24 @@ function hjudesite_block_styles() {
         )
     );
     register_block_style(
+        'core/group',
+        array(
+            'name'=> 'gridded',
+            'label'=> __( 'gridded', 'bureaucrat' ),
+        )
+    );
+    register_block_style(
         'core/cover',
         array(
             'name'=> 'link-cover',
             'label'=> __( 'link', 'bureaucrat' ),
+        )
+    );
+    register_block_style(
+        'core/details',
+        array(
+            'name'=> 'left-tab',
+            'label'=> __( 'left-tab', 'bureaucrat' ),
         )
     );
     register_block_style(
@@ -101,6 +115,17 @@ function bureaucrat_block_stylesheets() {
             'path'   => get_parent_theme_file_path( 'assets/css/columns.css' ),
         )
     );
+
+    wp_enqueue_block_style(
+        'core/details',
+        array(
+            'handle' => 'bureaucrat-details-style',
+            'src'    => get_parent_theme_file_uri( 'assets/css/details.css' ),
+            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
+            'path'   => get_parent_theme_file_path( 'assets/css/details.css' ),
+        )
+    );
+
     wp_enqueue_block_style(
         'core/heading',
         array(

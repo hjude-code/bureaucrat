@@ -93,6 +93,7 @@
 			]
 		},
 		"typography": {
+			"customFontSize": false,
 			"fluid": true,
 			"fontFamilies": [
 				{
@@ -184,6 +185,44 @@
 					"fontFamily": "IBM Plex Mono, monospace",
 					"name": "IBM Plex Mono",
 					"slug": "ibm-plex-mono"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "m-2",
+					"size": "0.67em",
+					"slug": "m-2"
+				},
+				{
+					"fluid": false,
+					"name": "m-1",
+					"size": "0.83em",
+					"slug": "m-1"
+				},
+				{
+					"fluid": false,
+					"name": "0",
+					"size": "20px",
+					"slug": "0"
+				},
+				{
+					"fluid": false,
+					"name": "p-1",
+					"size": "1.17em",
+					"slug": "p-1"
+				},
+				{
+					"fluid": false,
+					"name": "p-2",
+					"size": "1.5em",
+					"slug": "p-2"
+				},
+				{
+					"fluid": false,
+					"name": "p-3",
+					"size": "2em",
+					"slug": "p-3"
 				}
 			],
 			"writingMode": true
@@ -307,9 +346,6 @@
 					"margin": "calc( var(--wp--custom--border--width) *-1) !important"
 				}
 			},
-			"core/site-title": {
-				"elements": []
-			},
 			"core/social-links": {
 				"spacing": {
 					"blockGap": "var(--wp--custom--border--padding)"
@@ -322,6 +358,36 @@
 			"width": "var(--wp--custom--border--width)"
 		},
 		"elements": {
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--p-3)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--p-2)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--p-1)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--0)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--m-1)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--m-2)"
+				}
+			},
 			"link": {
 				":hover": {
 					"typography": {
@@ -344,7 +410,8 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
+			"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)",
+			"fontSize": "var(--wp--preset--font-size--0)"
 		}
 	},
 	"templateParts": [

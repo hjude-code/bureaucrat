@@ -10,3 +10,18 @@
 ):hover .wp-block-group.is-style-preview-pane{
     display: block;
 }
+
+
+.wp-block-group.is-layout-grid.is-style-gridded{
+    padding: 0px !important;    
+}
+.is-layout-grid.is-style-gridded>*{
+    border-width: var(--wp--custom--border--width);
+    border-color: var(--wp--custom--border--color);
+    border-style: var(--wp--custom--border--style);
+    margin-left: calc(var(--wp--custom--border--width)*-0.5) !important;
+    margin-right: calc(var(--wp--custom--border--width)*-0.5) !important;
+    margin-top: calc(var(--wp--custom--border--width)*-1) !important;
+    margin-bottom: calc(var(--wp--custom--border--width)*0) !important;
+    padding: var(--wp--custom--border--padding);
+}
