@@ -225,6 +225,12 @@
 					"name": "p-3",
 					"size": "clamp(3em, 4vw, 4em)",
 					"slug": "p-3"
+				},
+				{
+					"fluid": false,
+					"name": "p-4",
+					"size": "clamp(4em, 6vw, 5em)",
+					"slug": "p-4"
 				}
 			],
 			"writingMode": true
