@@ -73,7 +73,7 @@
 		"custom": {
 			"border": {
 				"color": "var(--wp--preset--color--borderDark)",
-				"padding": "var(--wp--preset--spacing--40)",
+				"padding": "var(--wp--preset--spacing--50)",
 				"style": "solid",
 				"width": "2px"
 			}
@@ -89,6 +89,8 @@
 				"em",
 				"rem",
 				"vh",
+				"lvh",
+				"svh",
 				"vw"
 			]
 		},
@@ -189,39 +191,39 @@
 			],
 			"fontSizes": [
 				{
-					"fluid": false,
+					"fluid": true,
 					"name": "m-2",
 					"size": "0.67em",
 					"slug": "m-2"
 				},
 				{
-					"fluid": false,
+					"fluid": true,
 					"name": "m-1",
 					"size": "0.83em",
 					"slug": "m-1"
 				},
 				{
-					"fluid": false,
+					"fluid": true,
 					"name": "0",
-					"size": "20px",
+					"size": "1.25rem",
 					"slug": "0"
 				},
 				{
 					"fluid": false,
 					"name": "p-1",
-					"size": "1.17em",
+					"size": "clamp(1.5em, 1.5vw, 2em)",
 					"slug": "p-1"
 				},
 				{
 					"fluid": false,
 					"name": "p-2",
-					"size": "1.5em",
+					"size": "clamp(2em, 2vw, 3em)",
 					"slug": "p-2"
 				},
 				{
 					"fluid": false,
 					"name": "p-3",
-					"size": "2em",
+					"size": "clamp(3em, 4vw, 4em)",
 					"slug": "p-3"
 				}
 			],
