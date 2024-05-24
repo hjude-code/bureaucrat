@@ -96,6 +96,7 @@
 		},
 		"typography": {
 			"customFontSize": false,
+			"defaultFontSizes": false,
 			"fluid": true,
 			"fontFamilies": [
 				{
@@ -396,6 +397,14 @@
 					"fontSize": "var(--wp--preset--font-size--m-2)"
 				}
 			},
+			"heading": {
+				"typography": {
+					"fontStyle": "italic",
+					"fontWeight": "700",
+					"lineHeight": "1",
+					"textTransform": "lowercase"
+				}
+			},
 			"link": {
 				":hover": {
 					"typography": {
@@ -432,6 +441,6 @@
 			"name": "footer"
 		}
 	],
-	"version": 2,
+	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }
