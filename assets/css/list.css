@@ -4,11 +4,11 @@
 
 ul.is-style-cell-list{
     list-style: none !important;
-    margin: calc(var(--wp--custom--border--padding) *-1) !important;
+    /* margin: calc(var(--wp--custom--border--padding) *-1) !important; */
 }
 
 ul.is-style-cell-list li{
-    padding: var(--wp--custom--border--padding);
+    padding:var(--wp--custom--border--padding) 0px;
 }
 
 ul.is-style-cell-list li + li{
