@@ -1,3 +1,7 @@
+.wp-block-details[open],
+.wp-block-details:hover{
+    font-style: italic;
+}
 
 .wp-block-details.is-style-right-icon summary{
     list-style: none;
