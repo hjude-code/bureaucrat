@@ -15,8 +15,8 @@
     list-style: none;
     display: flex;
     display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items:center;
+    align-items: end;
+    -webkit-align-items:end;
     justify-content: space-between;
     -webkit-justify-content: space-between;
     position: relative;
@@ -28,6 +28,7 @@
     transform-origin: center;
     transform: rotate(0deg);
     transition: 0.1s ease-in-out;
+    line-height: 0.75em;
 }
 
 .wp-block-details.is-style-right-icon summary:hover::after{
