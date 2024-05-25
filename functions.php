@@ -58,6 +58,13 @@ function hjudesite_block_styles() {
         )
     );
     register_block_style(
+        'core/heading',
+        array(
+            'name'=> 'ruled',
+            'label'=> __( 'ruled', 'bureaucrat' ),
+        )
+    );
+    register_block_style(
         'core/column',
         array(
             'name'=> 'sticky-column-desktop',
