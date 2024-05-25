@@ -5,6 +5,22 @@
     width:auto !important
 }
 
+.wp-block-heading.is-style-ruled{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items:center;
+    gap:1em;
+}
+.wp-block-heading.is-style-ruled::after{
+    content: '';
+    width:10%;
+    flex-grow: 1;
+    height: var(--wp--custom--border--width);
+    background-color: var(--wp--preset--color--contrast-3);
+    display: inline-block;
+}
+
 .is-style-offset{
     overflow: hidden;
     padding:0px !important;
