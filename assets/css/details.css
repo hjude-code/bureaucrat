@@ -1,3 +1,26 @@
-.wp-block-details.is-style-right-icon{
-    
+
+.wp-block-details.is-style-right-icon summary{
+    list-style: none;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items:center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.wp-block-details.is-style-right-icon summary::after{
+    content: "\2023";
+    font-size: 2em;
+    transform-origin: center;
+    transform: rotate(0deg);
+    transition: 0.1s ease-in-out;
+}
+
+.wp-block-details.is-style-right-icon summary:hover::after{
+    transform: rotate(45deg);
+}
+
+.wp-block-details[open].is-style-right-icon summary::after{
+    transform: rotate(90deg);
 }
