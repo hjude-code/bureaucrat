@@ -284,6 +284,11 @@
 					}
 				}
 			},
+			"core/details": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
+				}
+			},
 			"core/navigation": {
 				"elements": {
 					"h1": {
