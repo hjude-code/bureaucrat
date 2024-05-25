@@ -32,8 +32,8 @@ function hjudesite_block_styles() {
     register_block_style(
         'core/details',
         array(
-            'name'=> 'left-tab',
-            'label'=> __( 'left-tab', 'bureaucrat' ),
+            'name'=> 'right-icon',
+            'label'=> __( 'right-icon', 'bureaucrat' ),
         )
     );
     register_block_style(
