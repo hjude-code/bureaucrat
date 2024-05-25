@@ -3,6 +3,14 @@
     font-style: italic;
 }
 
+.wp-block-details[open] summary{
+    border-bottom-width:var(--wp--custom--border--width);
+    border-bottom-color: #ffffff;
+    border-bottom-style: solid;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.5em;
+}
+
 .wp-block-details.is-style-right-icon summary{
     list-style: none;
     display: flex;
@@ -11,6 +19,7 @@
     -webkit-align-items:center;
     justify-content: space-between;
     -webkit-justify-content: space-between;
+    position: relative;
 }
 
 .wp-block-details.is-style-right-icon summary::after{
