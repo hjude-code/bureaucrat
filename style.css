@@ -7,7 +7,7 @@ Description:
 Requires at least: 6.0
 Tested up to: 6.5.3
 Requires PHP: 5.7
-Version: 2.1.2
+Version: 2.2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: Bureaucrat
@@ -34,7 +34,7 @@ Tags: full-site-editing
     section.wp-block-group,
     .wp-block-post-content
 )>*+*{
-    border-top-width: var(--wp--custom--border-rule);
+    border-top-width: var(--wp--custom--border--width);
     border-top-style: var(--wp--custom--border--style);
     border-top-color: var(--wp--preset--color--borderDark);
 }
