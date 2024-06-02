@@ -45,7 +45,8 @@ Tags: full-site-editing
     .wp-block-post
 )>:is(
     .wp-block-columns,
-    .is-style-offset
+    .is-style-offset,
+    .wp-block-group.is-style-gridded
 ),
 .is-style-full-bleed{
     margin-left: calc(var(--wp--custom--border--padding)*-1);
@@ -56,7 +57,8 @@ Tags: full-site-editing
     .wp-block-post
 )>:is(
     .wp-block-columns,
-    .is-style-offset
+    .is-style-offset,
+    .wp-block-group.is-style-gridded
 ):last-child,
 .is-style-full-bleed:last-child{
     margin-bottom: calc(var(--wp--custom--border--padding)*-1) !important;
@@ -66,7 +68,8 @@ Tags: full-site-editing
     .wp-block-post
 )>:is(
     .wp-block-columns,
-    .is-style-offset
+    .is-style-offset,
+    .wp-block-group.is-style-gridded
 ):first-child,
 .is-style-full-bleed:first-child{
     margin-top: calc(var(--wp--custom--border--padding)*-1) !important;
