@@ -23,6 +23,13 @@ function hjudesite_block_styles() {
         )
     );
     register_block_style(
+        'core/group',
+        array(
+            'name'=> 'collapse-mobile',
+            'label'=> __( 'collapse-mobile', 'bureaucrat' ),
+        )
+    );
+    register_block_style(
         'core/cover',
         array(
             'name'=> 'link-cover',
