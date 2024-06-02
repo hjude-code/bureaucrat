@@ -1,5 +1,7 @@
+.wp-block-columns{}
+
 .wp-block-column:last-child{
-    margin-right:calc(var(--wp--custom--border--width)*-2) !important;
+    /* margin-right:calc(var(--wp--custom--border--width)*-2) !important; */
 }
 
 .wp-block-column.is-style-sticky-column{

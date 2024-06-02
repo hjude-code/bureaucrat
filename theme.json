@@ -253,21 +253,7 @@
 			},
 			"core/column": {
 				"border": {
-					"bottom": {
-						"color": "var(--wp--custom--border--color)",
-						"style": "var(--wp--custom--border--style)",
-						"width": "var(--wp--custom--border--width)"
-					},
-					"right": {
-						"color": "var(--wp--custom--border--color)",
-						"style": "var(--wp--custom--border--style)",
-						"width": "var(--wp--custom--border--width)"
-					},
-					"top": {
-						"color": "var(--wp--custom--border--color)",
-						"style": "var(--wp--custom--border--style)",
-						"width": "var(--wp--custom--border--width)"
-					}
+
 				},
 				"spacing": {
 					"blockGap": "var(--wp--custom--border--padding)",

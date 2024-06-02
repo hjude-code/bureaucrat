@@ -26,7 +26,7 @@ Tags: full-site-editing
     .wp-block-template-part,
     .is-style-offset
 ){
-    padding:var(--wp--preset--spacing--40) !important;
+    padding:var(--wp--custom--border--padding) !important;
 }
 
 :is(
@@ -34,7 +34,7 @@ Tags: full-site-editing
     section.wp-block-group,
     .wp-block-post-content
 )>*+*{
-    border-top-width: var(--wp--custom--border--width);
+    border-top-width: var(--wp--custom--border-rule);
     border-top-style: var(--wp--custom--border--style);
     border-top-color: var(--wp--preset--color--borderDark);
 }
