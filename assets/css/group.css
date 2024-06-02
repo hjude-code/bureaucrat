@@ -25,3 +25,10 @@
     margin-bottom: calc(var(--wp--custom--border--width)*0) !important;
     padding: var(--wp--custom--border--padding);
 }
+
+/*group grid collapse mobile*/
+@media (max-width:781px) {
+    .wp-block-group.is-layout-grid.is-style-collapse-mobile{
+        grid-template-columns: 1fr;
+    }
+}
