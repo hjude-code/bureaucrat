@@ -252,9 +252,7 @@
 				}
 			},
 			"core/column": {
-				"border": {
-
-				},
+				"border": [],
 				"spacing": {
 					"blockGap": "var(--wp--custom--border--padding)",
 					"margin": {
