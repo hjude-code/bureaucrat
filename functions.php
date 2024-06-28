@@ -65,13 +65,6 @@ function hjudesite_block_styles() {
         )
     );
     register_block_style(
-        'core/cover',
-        array(
-            'name'=> 'full-bleed',
-            'label'=> __( 'full-bleed', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
         'core/post-featured-image',
         array(
             'name'=> 'full-bleed',
