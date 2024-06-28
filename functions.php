@@ -51,20 +51,6 @@ function hjudesite_block_styles() {
         )
     );
     register_block_style(
-        'core/separator',
-        array(
-            'name'=> 'extra-wide',
-            'label'=> __( 'extra-wide', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/heading',
-        array(
-            'name'=> 'offset',
-            'label'=> __( 'offset', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
         'core/heading',
         array(
             'name'=> 'ruled',

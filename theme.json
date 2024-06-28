@@ -79,8 +79,8 @@
 			}
 		},
 		"layout": {
-			"contentSize": "600px",
-			"wideSize": "800px"
+			"contentSize": "1200px",
+			"wideSize": "100%"
 		},
 		"spacing": {
 			"units": [
@@ -242,10 +242,11 @@
 		"blocks": {
 			"core/button": {
 				"border": {
-					"width": "0px"
+					"width": "0px",
+					"radius":"0px"
 				},
 				"spacing": {
-					"padding": "0px"
+					"padding": "var(--wp--custom--border--padding)"
 				},
 				"typography": {
 					"fontWeight": "bold"
@@ -255,16 +256,35 @@
 				"border": [],
 				"spacing": {
 					"blockGap": "var(--wp--custom--border--padding)",
-					"margin": {
-						"bottom": "calc( var(--wp--custom--border--width) *-1) !important",
-						"right": "calc( var(--wp--custom--border--width) *-1) !important",
-						"top": "calc( var(--wp--custom--border--width) *-1) !important"
-					},
 					"padding": {
-						"bottom": "var(--wp--custom--border--padding)",
-						"left": "var(--wp--custom--border--padding)",
-						"right": "var(--wp--custom--border--padding)",
-						"top": "var(--wp--custom--border--padding)"
+						"top":"var(--wp--custom--border--padding)",
+						"bottom":"var(--wp--custom--border--padding)"
+					}
+				}
+			},
+			"core/group": {
+				"spacing": {
+					"blockGap": "var(--wp--custom--border--padding)",
+					"padding": {
+						"top":"var(--wp--custom--border--padding)",
+						"bottom":"var(--wp--custom--border--padding)"
+					}
+				}
+			},
+			"core/cover": {
+				"spacing": {
+					"padding": {
+						"bottom":"var(--wp--custom--border--padding)",
+						"top":"var(--wp--custom--border--padding)",
+						"left":"0px",
+						"right":"0px"
+					}
+				}
+			},
+			"core/list": {
+				"spacing": {
+					"padding": {
+						"left":"1em"
 					}
 				}
 			},
@@ -350,11 +370,7 @@
 				}
 			}
 		},
-		"border": {
-			"color": "var(--wp--custom--border--color)",
-			"style": "var(--wp--custom--border--style)",
-			"width": "var(--wp--custom--border--width)"
-		},
+		"border": {},
 		"elements": {
 			"h1": {
 				"typography": {
@@ -409,10 +425,8 @@
 		"spacing": {
 			"blockGap": "0px",
 			"padding": {
-				"bottom": "0px",
-				"left": "0px",
-				"right": "0px",
-				"top": "0px"
+				"left": "var(--wp--custom--border--padding)",
+				"right": "var(--wp--custom--border--padding)"
 			}
 		},
 		"typography": {
