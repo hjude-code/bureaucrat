@@ -184,7 +184,18 @@ function bureaucrat_block_stylesheets() {
             'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
             'path'   => get_parent_theme_file_path( 'assets/css/image.css' ),
         )
+    );
+
+    wp_enqueue_block_style(
+        'core/post-featured-image',
+        array(
+            'handle' => 'bureaucrat-image-style',
+            'src'    => get_parent_theme_file_uri( 'assets/css/image.css' ),
+            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
+            'path'   => get_parent_theme_file_path( 'assets/css/image.css' ),
+        )
     ); 
+
 
     wp_enqueue_block_style(
         'core/cover',

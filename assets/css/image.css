@@ -12,3 +12,19 @@
 .wp-block-image.is-style-peakaboo img{
     transform: translateY(var(--intersection));
 }
+
+
+@media screen and (min-width:760px) {
+
+    figure>a>img{
+        transform:scale(1);
+        transition: 0.2s cubic-bezier(.5,0,0,.99);
+        transform-origin: bottom left;
+    }
+
+    figure>a:hover>img{
+        transform:scale(0.95);
+        
+    }
+
+}
