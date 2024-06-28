@@ -242,8 +242,8 @@
 		"blocks": {
 			"core/button": {
 				"border": {
-					"width": "0px",
-					"radius":"0px"
+					"radius": "0px",
+					"width": "0px"
 				},
 				"spacing": {
 					"padding": "var(--wp--custom--border--padding)"
@@ -257,40 +257,40 @@
 				"spacing": {
 					"blockGap": "var(--wp--custom--border--padding)",
 					"padding": {
-						"top":"var(--wp--custom--border--padding)",
-						"bottom":"var(--wp--custom--border--padding)"
-					}
-				}
-			},
-			"core/group": {
-				"spacing": {
-					"blockGap": "var(--wp--custom--border--padding)",
-					"padding": {
-						"top":"var(--wp--custom--border--padding)",
-						"bottom":"var(--wp--custom--border--padding)"
+						"bottom": "var(--wp--custom--border--padding)",
+						"top": "var(--wp--custom--border--padding)"
 					}
 				}
 			},
 			"core/cover": {
 				"spacing": {
 					"padding": {
-						"bottom":"var(--wp--custom--border--padding)",
-						"top":"var(--wp--custom--border--padding)",
-						"left":"0px",
-						"right":"0px"
-					}
-				}
-			},
-			"core/list": {
-				"spacing": {
-					"padding": {
-						"left":"1em"
+						"bottom": "var(--wp--custom--border--padding)",
+						"left": "0px",
+						"right": "0px",
+						"top": "var(--wp--custom--border--padding)"
 					}
 				}
 			},
 			"core/details": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)"
+				}
+			},
+			"core/group": {
+				"spacing": {
+					"blockGap": "var(--wp--custom--border--padding)",
+					"padding": {
+						"bottom": "var(--wp--custom--border--padding)",
+						"top": "var(--wp--custom--border--padding)"
+					}
+				}
+			},
+			"core/list": {
+				"spacing": {
+					"padding": {
+						"left": "1em"
+					}
 				}
 			},
 			"core/navigation": {
@@ -312,6 +312,14 @@
 								"top": "0px"
 							}
 						}
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var(--wp--custom--border--padding)",
+						"left": "var(--wp--custom--border--padding)",
+						"right": "var(--wp--custom--border--padding)",
+						"top": "var(--wp--custom--border--padding)"
 					}
 				}
 			},
