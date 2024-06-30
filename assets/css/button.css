@@ -1,5 +1,14 @@
 .wp-block-buttons:has(.wp-block-button.is-style-outline){
-    gap:calc(var(--wp--custom--border--width)*0.5)
+    gap:var(--wp--custom--border--width);
+    align-self: stretch;
+}
+.wp-block-button.is-style-outline{
+    align-self: stretch;
+}
+.wp-block-button.is-style-outline a{
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .wp-block-button a:hover{

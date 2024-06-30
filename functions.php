@@ -46,8 +46,8 @@ function hjudesite_block_styles() {
     register_block_style(
         'core/site-logo',
         array(
-            'name'=> 'invert',
-            'label'=> __( 'invert', 'bureaucrat' ),
+            'name'=> 'boxed',
+            'label'=> __( 'boxed', 'bureaucrat' ),
         )
     );
     register_block_style(

@@ -6,17 +6,8 @@
 			"width": false
 		},
 		"color": {
+			"custom": true,
 			"customDuotone": true,
-			"duotone": [
-				{
-					"colors": [
-						"#ffffff",
-						"#000000"
-					],
-					"name": "B/W Invert",
-					"slug": "BW-invert"
-				}
-			],
 			"palette": [
 				{
 					"color": "#f9f9f9",

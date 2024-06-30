@@ -1,3 +1,6 @@
-.wp-block-site-logo.is-style-invert{
-    filter: invert();
+.wp-block-site-logo.is-style-boxed{
+    padding:var(--wp--custom--border--padding);
+    outline-width: var(--wp--custom--border--width);
+    outline-style: solid;
+    align-self: stretch;
 }
