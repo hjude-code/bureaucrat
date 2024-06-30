@@ -4,7 +4,6 @@
 ) .wp-block-group.is-style-preview-pane{
     display: none;
 }
-
 :is(
     .wp-block-cover 
 ):hover .wp-block-group.is-style-preview-pane{
@@ -12,13 +11,12 @@
 }
 
 
+/* grid - gridded */
 .wp-block-group.is-layout-grid.is-style-gridded{
     padding: 0px !important;
-    grid-column-gap: var(--wp--custom--border--width) !important;
-    grid-row-gap: var(--wp--custom--border--width) !important;
+    column-gap: var(--wp--custom--border--width) !important;
+    row-gap: var(--wp--custom--border--width) !important;
 }
-
-
 .wp-block-group.is-layout-grid.is-style-gridded>*{
     outline-color: var(--wp-custom--border--color);
     outline-width: var(--wp--custom--border--width);

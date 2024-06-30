@@ -1,3 +1,7 @@
+.wp-block-buttons:has(.wp-block-button.is-style-outline){
+    gap:calc(var(--wp--custom--border--width)*0.5)
+}
+
 .wp-block-button a:hover{
     font-style: italic;
 }

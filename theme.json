@@ -250,6 +250,27 @@
 				},
 				"typography": {
 					"fontWeight": "bold"
+				},
+				"variations": {
+					"outline":{
+						"border":{
+							"width":"0px",
+							"radius":"0px"
+						},
+						"outline":{
+							"width":"var(--wp--custom--border--width)",
+							"style":"solid",
+							"offset":"0"
+						},
+						"spacing": {
+							"padding": {
+								"left": "var(--wp--custom--border--padding)",
+								"right": "var(--wp--custom--border--padding)",
+								"top": "var(--wp--custom--border--padding)",
+								"bottom": "var(--wp--custom--border--padding)"
+							}
+						}
+					}
 				}
 			},
 			"core/column": {
