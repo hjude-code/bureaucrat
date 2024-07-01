@@ -457,11 +457,11 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header"
+			"name": "Header-Default"
 		},
 		{
 			"area": "footer",
-			"name": "footer"
+			"name": "Footer-Default"
 		}
 	],
 	"version": 3,
