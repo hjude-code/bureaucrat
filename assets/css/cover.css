@@ -13,6 +13,11 @@
     cursor:pointer;
 }
 
+.wp-block-cover.is-style-sticky-content .wp-block-cover__inner-container{
+    position: sticky;
+    bottom: 0;
+}
+
 
 .wp-block-cover.is-style-link-cover:hover img{
     transform: translateX(0%) translateY(0%) scale(100%);
