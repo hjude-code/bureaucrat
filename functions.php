@@ -37,6 +37,13 @@ function hjudesite_block_styles() {
         )
     );
     register_block_style(
+        'core/cover',
+        array(
+            'name'=> 'sticky-content',
+            'label'=> __( 'sticky-content', 'bureaucrat' ),
+        )
+    );
+    register_block_style(
         'core/details',
         array(
             'name'=> 'right-icon',
