@@ -1,319 +1,158 @@
 <?php
+/**
+ * bureau functions and definitions.
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_Five
+ * @since bureau 1.0
+ */
 
-function hjudesite_block_styles() {
-    register_block_style(
-        'core/column',
-        array(
-            'name'=> 'sticky-column',
-            'label'=> __( 'sticky', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/group',
-        array(
-            'name'=> 'preview-pane',
-            'label'=> __( 'preview-pane', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/group',
-        array(
-            'name'=> 'gridded',
-            'label'=> __( 'gridded', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/group',
-        array(
-            'name'=> 'collapse-mobile',
-            'label'=> __( 'collapse-mobile', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/cover',
-        array(
-            'name'=> 'link-cover',
-            'label'=> __( 'link', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/cover',
-        array(
-            'name'=> 'sticky-content',
-            'label'=> __( 'sticky-content', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/details',
-        array(
-            'name'=> 'right-icon',
-            'label'=> __( 'right-icon', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/site-logo',
-        array(
-            'name'=> 'boxed',
-            'label'=> __( 'boxed', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/heading',
-        array(
-            'name'=> 'ruled',
-            'label'=> __( 'ruled', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/column',
-        array(
-            'name'=> 'sticky-column-desktop',
-            'label'=> __( 'sticky-desktop', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/post-featured-image',
-        array(
-            'name'=> 'full-bleed',
-            'label'=> __( 'full-bleed', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/navigation',
-        array(
-            'name'=> 'primary-navigation',
-            'label'=> __( 'primary', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/image',
-        array(
-            'name'=> 'peakaboo',
-            'label'=> __( 'peakaboo', 'bureaucrat' ),
-        )
-    );
-    register_block_style(
-        'core/list',
-        array(
-            'name'=> 'cell-list',
-            'label'=> __( 'cell', 'bureaucrat' ),
-        )
-    );
-}
+// Adds theme support for post formats.
+if ( ! function_exists( 'bureau_post_format_setup' ) ) :
+	/**
+	 * Adds theme support for post formats.
+	 *
+	 * @since bureau 1.0
+	 *
+	 * @return void
+	 */
+	function bureau_post_format_setup() {
+		add_theme_support( 'post-formats', array( 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ) );
+	}
+endif;
+add_action( 'after_setup_theme', 'bureau_post_format_setup' );
 
+// Enqueues editor-style.css in the editors.
+if ( ! function_exists( 'bureau_editor_style' ) ) :
+	/**
+	 * Enqueues editor-style.css in the editors.
+	 *
+	 * @since bureau 1.0
+	 *
+	 * @return void
+	 */
+	function bureau_editor_style() {
+		add_editor_style( get_parent_theme_file_uri( 'assets/css/editor-style.css' ) );
+	}
+endif;
+add_action( 'after_setup_theme', 'bureau_editor_style' );
 
-add_action( 'init', 'hjudesite_block_styles' );
+// Enqueues style.css on the front.
+if ( ! function_exists( 'bureau_enqueue_styles' ) ) :
+	/**
+	 * Enqueues style.css on the front.
+	 *
+	 * @since bureau 1.0
+	 *
+	 * @return void
+	 */
+	function bureau_enqueue_styles() {
+		wp_enqueue_style(
+			'bureau-style',
+			get_parent_theme_file_uri( 'style.css' ),
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+	}
+endif;
+add_action( 'wp_enqueue_scripts', 'bureau_enqueue_styles' );
 
-function bureaucrat_block_stylesheets() {
+// Registers custom block styles.
+if ( ! function_exists( 'bureau_block_styles' ) ) :
+	/**
+	 * Registers custom block styles.
+	 *
+	 * @since bureau 1.0
+	 *
+	 * @return void
+	 */
+	function bureau_block_styles() {
+		register_block_style(
+			'core/list',
+			array(
+				'name'         => 'checkmark-list',
+				'label'        => __( 'Checkmark', 'bureau' ),
+				'inline_style' => '
+				ul.is-style-checkmark-list {
+					list-style-type: "\2713";
+				}
 
-    wp_enqueue_block_style(
-        'core/columns',
-        array(
-            'handle' => 'bureaucrat-columns-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/columns.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/columns.css' ),
-        )
-    );
+				ul.is-style-checkmark-list li {
+					padding-inline-start: 1ch;
+				}',
+			)
+		);
+	}
+endif;
+add_action( 'init', 'bureau_block_styles' );
 
-    wp_enqueue_block_style(
-        'core/details',
-        array(
-            'handle' => 'bureaucrat-details-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/details.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/details.css' ),
-        )
-    );
+// Registers pattern categories.
+if ( ! function_exists( 'bureau_pattern_categories' ) ) :
+	/**
+	 * Registers pattern categories.
+	 *
+	 * @since bureau 1.0
+	 *
+	 * @return void
+	 */
+	function bureau_pattern_categories() {
 
-    wp_enqueue_block_style(
-        'core/heading',
-        array(
-            'handle' => 'bureaucrat-heading-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/heading.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/heading.css' ),
-        )
-    );
+		register_block_pattern_category(
+			'bureau_page',
+			array(
+				'label'       => __( 'Pages', 'bureau' ),
+				'description' => __( 'A collection of full page layouts.', 'bureau' ),
+			)
+		);
 
-    wp_enqueue_block_style(
-        'core/separator',
-        array(
-            'handle' => 'bureaucrat-separator-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/separator.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/separator.css' ),
-        )
-    );
-    wp_enqueue_block_style(
-        'core/group',
-        array(
-            'handle' => 'bureaucrat-group-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/group.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/group.css' ),
-        )
-    );
-    wp_enqueue_block_style(
-        'core/query',
-        array(
-            'handle' => 'bureaucrat-query-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/query.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/query.css' ),
-        )
-    );
-    wp_enqueue_block_style(
-        'core/spacer',
-        array(
-            'handle' => 'bureaucrat-spacer-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/spacer.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/spacer.css' ),
-        )
-    );
+		register_block_pattern_category(
+			'bureau_post-format',
+			array(
+				'label'       => __( 'Post formats', 'bureau' ),
+				'description' => __( 'A collection of post format patterns.', 'bureau' ),
+			)
+		);
+	}
+endif;
+add_action( 'init', 'bureau_pattern_categories' );
 
+// Registers block binding sources.
+if ( ! function_exists( 'bureau_register_block_bindings' ) ) :
+	/**
+	 * Registers the post format block binding source.
+	 *
+	 * @since bureau 1.0
+	 *
+	 * @return void
+	 */
+	function bureau_register_block_bindings() {
+		register_block_bindings_source(
+			'bureau/format',
+			array(
+				'label'              => _x( 'Post format name', 'Label for the block binding placeholder in the editor', 'bureau' ),
+				'get_value_callback' => 'bureau_format_binding',
+			)
+		);
+	}
+endif;
+add_action( 'init', 'bureau_register_block_bindings' );
 
-    wp_enqueue_block_style(
-        'core/site-logo',
-        array(
-            'handle' => 'bureaucrat-site-logo-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/site-logo.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/site-logo.css' ),
-        )
-    );
-    wp_enqueue_block_style(
-        'core/image',
-        array(
-            'handle' => 'bureaucrat-image-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/image.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/image.css' ),
-        )
-    );
+// Registers block binding callback function for the post format name.
+if ( ! function_exists( 'bureau_format_binding' ) ) :
+	/**
+	 * Callback function for the post format name block binding source.
+	 *
+	 * @since bureau 1.0
+	 *
+	 * @return string|void Post format name, or nothing if the format is 'standard'.
+	 */
+	function bureau_format_binding() {
+		$post_format_slug = get_post_format();
 
-    wp_enqueue_block_style(
-        'core/post-featured-image',
-        array(
-            'handle' => 'bureaucrat-image-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/image.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/image.css' ),
-        )
-    ); 
-
-
-    wp_enqueue_block_style(
-        'core/cover',
-        array(
-            'handle' => 'bureaucrat-cover-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/cover.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/cover.css' ),
-        )
-    );
-
-    wp_enqueue_block_style(
-        'core/list',
-        array(
-            'handle' => 'bureaucrat-list-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/list.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/list.css' ),
-        )
-    ); 
-
-    wp_enqueue_block_style(
-        'core/navigation',
-        array(
-            'handle' => 'bureaucrat-navigation-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/navigation.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/navigation.css' ),
-        )
-    );
-
-    wp_enqueue_block_style(
-        'core/query-pagination',
-        array(
-            'handle' => 'bureaucrat-query-pagination-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/query-pagination.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/query-pagination.css' ),
-        )
-    );
-    wp_enqueue_block_style(
-        'core/post-template',
-        array(
-            'handle' => 'bureaucrat-post-template-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/post-template.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/post-template.css' ),
-        )
-    ); 
-    wp_enqueue_block_style(
-        'core/social-links',
-        array(
-            'handle' => 'bureaucrat-social-links-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/social-links.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/social-links.css' ),
-        )
-    );
-    wp_enqueue_block_style(
-        'core/button',
-        array(
-            'handle' => 'bureaucrat-button-style',
-            'src'    => get_parent_theme_file_uri( 'assets/css/button.css' ),
-            'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-            'path'   => get_parent_theme_file_path( 'assets/css/button.css' ),
-        )
-    );    
-
-    // Add support for block styles.
-   add_theme_support( 'wp-block-styles' );
-
-   // Enqueue editor styles.
-   add_editor_style( 'style.css' );
-
-    wp_enqueue_style( 'style', get_stylesheet_uri() );
-}
-
-add_action( 'init', 'bureaucrat_block_stylesheets' );
-
-
-function bureaucrat_scripts() {
-    wp_enqueue_script(
-		'navigation-spacing',
-		get_parent_theme_file_uri( 'assets/script/navigation-offset.js' ),
-		array(),
-		'1.0',
-		true
-	);
-
-    wp_enqueue_script(
-		'image-peak',
-		get_parent_theme_file_uri( 'assets/script/image-peak.js' ),
-		array(),
-		'1.0',
-		true
-	);
-
-    wp_enqueue_script(
-		'offset-text',
-		get_parent_theme_file_uri( 'assets/script/offset-text.js' ),
-		array(),
-		'1.0',
-		true
-	);
-    wp_enqueue_script(
-		'cover-link',
-		get_parent_theme_file_uri( 'assets/script/cover-link.js' ),
-		array(),
-		'1.0',
-		true
-	);
-}
-add_action('wp_enqueue_scripts', 'bureaucrat_scripts');
-?>
+		if ( $post_format_slug && 'standard' !== $post_format_slug ) {
+			return get_post_format_string( $post_format_slug );
+		}
+	}
+endif;

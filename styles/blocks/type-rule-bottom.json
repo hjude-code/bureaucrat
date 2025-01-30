@@ -1,0 +1,17 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "rule bottom",
+	"slug": "type-rule-bottom",
+	"blockTypes": ["core/heading"],
+	"settings": {
+	},
+	"styles": {
+		"border": {
+			"color":"var:preset|color|contrast",
+			"style":"solid",
+			"width":"0px 0px 2px 0px"
+		}
+		
+	}
+}
