@@ -794,11 +794,6 @@
 				},
 				"color": {
 					"text": "var(--wp--preset--color--accent-6)"
-				},
-				"variations": {
-					"wide": {
-						"css": " &:not(.alignfull){max-width: var(--wp--style--global--wide-size) !important;}"
-					}
 				}
 			},
 			"core/site-tagline": {
@@ -827,6 +822,11 @@
 			"core/term-description": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			},
+			"core/details":{
+				"elements": {
+				
 				}
 			}
 		},
@@ -945,11 +945,10 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
-			"fontSize": "var(--wp--preset--font-size--large)",
+			"fontSize": "var(--wp--preset--font-size--regular)",
 			"fontStyle": "normal",
 			"fontWeight": "300",
-			"letterSpacing": "-0.1px",
-			"lineHeight": "1.4"
+			"lineHeight": "1.5"
 		}
 	},
 	"templateParts": [

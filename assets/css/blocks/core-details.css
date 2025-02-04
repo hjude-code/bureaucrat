@@ -1,8 +1,30 @@
+.wp-block-details>*:not(summary){
+    font-size: var(--wp--preset--font-size--regular);
+}
+
+.wp-block-details summary{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction:row;
+    justify-content: space-between;
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 800;
+}
+
 .wp-block-details summary::marker{
     display: none;
     content: "";
 }
-
-.wp-block-details::details-content{
-    background-color: red;
+.wp-block-details summary::after{
+    content: "+";
+    display: block;
+    transform: rotate(180deg);
+    transition: transform 0.25s ease-in-out;
+}
+.wp-block-details[open] summary::after{
+    transform: rotate(0deg);
+    content: "–";
+    display: block;
 }
