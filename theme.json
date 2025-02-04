@@ -73,6 +73,16 @@
 					"name": "Medium",
 					"size": "2em",
 					"slug": "200"
+				},
+				{
+					"name": "Large",
+					"size": "3em",
+					"slug": "300"
+				},
+				{
+					"name": "XL",
+					"size": "4em",
+					"slug": "400"
 				}
 			],
 			"units": [
