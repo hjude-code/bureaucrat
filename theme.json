@@ -923,8 +923,10 @@
 		"spacing": {
 			"blockGap": "1.2rem",
 			"padding": {
-				"left": "var(--wp--preset--spacing--50)",
-				"right": "var(--wp--preset--spacing--50)"
+				"bottom": "0px",
+				"left": "var(--wp--preset--spacing--60)",
+				"right": "var(--wp--preset--spacing--60)",
+				"top": "0px"
 			}
 		},
 		"typography": {
@@ -941,6 +943,11 @@
 			"area": "header",
 			"name": "standard-header-navigation",
 			"title": "Standard Header Navigation"
+		},
+		{
+			"area": "header",
+			"name": "full-width-header-navigation",
+			"title": "Full Width Header Navigation"
 		},
 		{
 			"area": "footer",

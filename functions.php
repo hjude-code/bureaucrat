@@ -9,6 +9,17 @@
  * @since bureaucrat 1.0
  */
 
+ function register_my_menus() {
+	register_nav_menus(
+	  array(
+		'header-menu' => __( 'Header Menu' ),
+		'extra-menu' => __( 'Extra Menu' )
+	   )
+	 );
+   }
+   add_action( 'init', 'register_my_menus' );
+
+
 // Adds theme support for post formats.
 if ( ! function_exists( 'bureaucrat_post_format_setup' ) ) :
 	/**
@@ -156,3 +167,5 @@ if ( ! function_exists( 'bureaucrat_format_binding' ) ) :
 		}
 	}
 endif;
+
+
