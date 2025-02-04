@@ -841,9 +841,9 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--ibm-plex-mono)",
 					"fontSize": "var(--wp--preset--font-size--regular)",
+					"fontStyle": "italic",
 					"lineHeight": "1",
-					"fontStyle":"italic",
-					"textTransform":"lowercase"
+					"textTransform": "lowercase"
 				}
 			},
 			"h1": {
