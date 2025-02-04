@@ -401,12 +401,9 @@
 					"slug": "x-large"
 				},
 				{
-					"fluid": {
-						"max": "6rem",
-						"min": "6rem"
-					},
+					"fluid":false,
 					"name": "XX Large",
-					"size": "6.00rem",
+					"size": "clamp(3rem, 6vw, 6rem)",
 					"slug": "xx-large"
 				}
 			],
