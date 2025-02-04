@@ -1,0 +1,8 @@
+.wp-block-details summary::marker{
+    display: none;
+    content: "";
+}
+
+.wp-block-details::details-content{
+    background-color: red;
+}

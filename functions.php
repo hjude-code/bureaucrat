@@ -9,6 +9,18 @@
  * @since bureaucrat 1.0
  */
 
+ //Adds block stylesheets
+
+
+function themeslug_enqueue_block_styles() {
+	wp_enqueue_block_style( 'core/details', array(
+		'handle' => 'themeslug-block-details',
+		'src'    => get_theme_file_uri( "assets/css/blocks/core-details.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/core-details.css" )
+	) );
+}
+add_action( 'init', 'themeslug_enqueue_block_styles' );
+
 // Adds theme support for post formats.
 if ( ! function_exists( 'bureaucrat_post_format_setup' ) ) :
 	/**
