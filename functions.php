@@ -18,6 +18,16 @@ function themeslug_enqueue_block_styles() {
 		'src'    => get_theme_file_uri( "assets/css/blocks/core-details.css" ),
 		'path'   => get_theme_file_path( "assets/css/blocks/core-details.css" )
 	) );
+	wp_enqueue_block_style( 'core/video', array(
+		'handle' => 'themeslug-block-video-figure',
+		'src'    => get_theme_file_uri( "assets/css/blocks/figure.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/figure.css" )
+	) );
+	wp_enqueue_block_style( 'core/image', array(
+		'handle' => 'themeslug-block-image-figure',
+		'src'    => get_theme_file_uri( "assets/css/blocks/figure.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/figure.css" )
+	) );
 }
 add_action( 'init', 'themeslug_enqueue_block_styles' );
 

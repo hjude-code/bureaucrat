@@ -1,0 +1,28 @@
+body{
+    counter-reset: figure-counter;
+}
+
+figure.is-style-figure-outline :is(img, video){
+    border: 2px solid black;
+}
+
+figure.is-style-figure-outline figcaption{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    column-gap: var(--wp--preset--spacing--100);
+}
+
+figure.is-style-figure-outline figcaption::before{
+    counter-increment: figure-counter;
+    content:"fig." counter(figure-counter) " ";
+}
+figure.is-style-figure-outline figcaption::after{
+    content:'';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
