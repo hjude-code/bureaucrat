@@ -804,6 +804,13 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
+			},
+			"core/video":{
+				"border": {
+					"style":"solid",
+					"color":"var(--wp--preset--color--contrast)",
+					"width":"2px"
+				}
 			}
 		},
 		"color": {
