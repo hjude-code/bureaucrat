@@ -599,7 +599,13 @@
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
-			"core/details": [],
+			"core/image":{
+				"border": {
+					"width":"2px",
+					"color":"var(--wp--preset--color--contrast)",
+					"style":"solid"
+				}
+			},
 			"core/list": {
 				"css": "& li{margin-top: 0.5rem;}"
 			},
@@ -822,11 +828,6 @@
 			"core/term-description": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)"
-				}
-			},
-			"core/details":{
-				"elements": {
-				
 				}
 			}
 		},
