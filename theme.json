@@ -68,7 +68,8 @@
 					"name": "Mini",
 					"size": "clamp(0.25rem, 0.5vw, 0.5rem)",
 					"slug": "050"
-				},{
+				},
+				{
 					"name": "small",
 					"size": "clamp(0.5rem, 1vw, 1rem)",
 					"slug": "100"
@@ -423,7 +424,7 @@
 					"slug": "x-large"
 				},
 				{
-					"fluid":false,
+					"fluid": false,
 					"name": "XX Large",
 					"size": "clamp(3rem, 6vw, 6rem)",
 					"slug": "xx-large"
@@ -431,7 +432,6 @@
 			],
 			"writingMode": true
 		},
-		
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
