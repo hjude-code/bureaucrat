@@ -2,6 +2,10 @@ body{
     counter-reset: figure-counter;
 }
 
+figure.size-full img{
+    width: 100%;
+}
+
 figure.is-style-figure-outline :is(img, video){
     border: 2px solid black;
 }
