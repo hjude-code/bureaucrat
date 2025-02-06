@@ -15,6 +15,13 @@ figure.is-style-figure-outline figcaption{
     grid-template-columns: auto 1fr auto;
     align-items: center;
     column-gap: var(--wp--preset--spacing--100);
+    position: sticky;
+    bottom: 0px;
+    padding: var(--wp--preset--spacing--100) 0;
+    background-color: var(--wp--preset--color--base);
+    border-top:2px solid var(--wp--preset--color--contrast);
+    margin: 0px;
+    margin-top: -2px;
 }
 
 figure.is-style-figure-outline figcaption::before{
