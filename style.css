@@ -23,6 +23,9 @@ Tags:
  * https://github.com/WordPress/gutenberg/issues/42319
  */
  
+*{
+	box-sizing: border-box;
+}
 
 /* Increase the bottom margin on submenus, so that the outline is visible. */
 .wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item:not(:last-child) {
