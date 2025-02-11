@@ -48,6 +48,11 @@ function themeslug_enqueue_block_styles() {
 		'src'    => get_theme_file_uri( "assets/css/blocks/core-columns.css" ),
 		'path'   => get_theme_file_path( "assets/css/blocks/core-columns.css" )
 	) );
+	wp_enqueue_block_style( 'core/navigation', array(
+		'handle' => 'themeslug-block-navigation',
+		'src'    => get_theme_file_uri( "assets/css/blocks/core-navigation.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/core-navigation.css" )
+	) );
 }
 add_action( 'init', 'themeslug_enqueue_block_styles' );
 
