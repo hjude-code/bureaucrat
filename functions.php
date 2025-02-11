@@ -43,6 +43,11 @@ function themeslug_enqueue_block_styles() {
 		'src'    => get_theme_file_uri( "assets/css/blocks/core-post-navigation-link.css" ),
 		'path'   => get_theme_file_path( "assets/css/blocks/core-post-navigation-link.css" )
 	) );
+	wp_enqueue_block_style( 'core/columns', array(
+		'handle' => 'themeslug-block-columns',
+		'src'    => get_theme_file_uri( "assets/css/blocks/core-columns.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/core-columns.css" )
+	) );
 }
 add_action( 'init', 'themeslug_enqueue_block_styles' );
 

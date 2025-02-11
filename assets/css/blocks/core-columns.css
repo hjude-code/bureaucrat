@@ -1,0 +1,21 @@
+.wp-block-column.is-vertically-aligned-top:first-of-type{
+    position: sticky;
+    top:var(--stickyTop);
+}
+
+@media screen and (max-width:780px){
+    .wp-block-column.is-vertically-aligned-top:first-of-type + .wp-block-column{
+        border-top:2px solid black;
+        position: relative;
+    }
+}
+
+@media screen and (min-width:780px){
+
+    .wp-block-column.is-vertically-aligned-top{
+        position: sticky;
+        top:var(--stickyTop);
+    }
+
+}
+    
