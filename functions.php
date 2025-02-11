@@ -28,6 +28,11 @@ function themeslug_enqueue_block_styles() {
 		'src'    => get_theme_file_uri( "assets/css/blocks/figure.css" ),
 		'path'   => get_theme_file_path( "assets/css/blocks/figure.css" )
 	) );
+	wp_enqueue_block_style( 'core/post-featured-image', array(
+		'handle' => 'themeslug-block-post-featured-image-figure',
+		'src'    => get_theme_file_uri( "assets/css/blocks/figure.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/figure.css" )
+	) );
 	wp_enqueue_block_style( 'core/group', array(
 		'handle' => 'themeslug-blockgroup',
 		'src'    => get_theme_file_uri( "assets/css/blocks/core-group.css" ),
@@ -119,6 +124,18 @@ if ( ! function_exists( 'bureaucrat_block_styles' ) ) :
 	}
 endif;
 add_action( 'init', 'bureaucrat_block_styles' );
+
+//adds scripts
+function bureaucrat_enqueue_scripts() {
+	wp_enqueue_script( 
+		'bureaucrat-sticky-top',
+		get_parent_theme_file_uri( 'assets/scripts/sticky-top.js' ),
+		array(),
+		wp_get_theme()->get( 'Version' ),
+		true
+	);
+}
+add_action( 'wp_enqueue_scripts', 'bureaucrat_enqueue_scripts' );
 
 // Registers pattern categories.
 if ( ! function_exists( 'bureaucrat_pattern_categories' ) ) :

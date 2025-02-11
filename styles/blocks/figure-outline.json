@@ -3,7 +3,7 @@
 	"version": 3,
 	"title": "figure outline",
 	"slug": "figure-outline",
-	"blockTypes": ["core/image", "core/video"],
+	"blockTypes": ["core/image", "core/video", "core/post-featured-image"],
 	"styles": {
 		"border": {
 		}

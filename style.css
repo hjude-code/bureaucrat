@@ -23,6 +23,14 @@ Tags:
  * https://github.com/WordPress/gutenberg/issues/42319
  */
  
+body{
+	--stickyTop:0px;
+}
+
+.is-position-sticky:not(header, :has(header)){
+	top:var(--stickyTop)
+}
+
 *{
 	box-sizing: border-box;
 }
