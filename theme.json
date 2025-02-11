@@ -659,7 +659,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontWeight": "600",
-					"textDecoration":"none"
+					"textDecoration": "none"
 				}
 			},
 			"core/post-title": {
@@ -912,11 +912,11 @@
 			},
 			"link": {
 				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--accent-1)"
+					},
 					"typography": {
 						"textDecoration": "none"
-					},
-					"color": {
-						"text":"var(--wp--preset--color--accent-1)"
 					}
 				},
 				"color": {
