@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "cover-outlined",
+	"title": "outlined",
+	"blockTypes": [
+		"core/cover"
+	],
+	"styles": {
+		"border": {
+			"color":"var:preset|color|contrast",
+			"style":"solid",
+			"width":"2px"
+		}
+	}
+}
