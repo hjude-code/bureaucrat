@@ -33,6 +33,11 @@ function themeslug_enqueue_block_styles() {
 		'src'    => get_theme_file_uri( "assets/css/blocks/core-group.css" ),
 		'path'   => get_theme_file_path( "assets/css/blocks/core-group.css" )
 	) );
+	wp_enqueue_block_style( 'core/post-navigation-link', array(
+		'handle' => 'themeslug-block-post-navigation-link',
+		'src'    => get_theme_file_uri( "assets/css/blocks/core-post-navigation-link.css" ),
+		'path'   => get_theme_file_path( "assets/css/blocks/core-post-navigation-link.css" )
+	) );
 }
 add_action( 'init', 'themeslug_enqueue_block_styles' );
 

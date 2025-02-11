@@ -651,7 +651,17 @@
 			},
 			"core/post-navigation-link": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontWeight":"800",
+					"textDecoration":"none",
+					"textTransform":"lowercase"
+				},
+				"elements": {
+					"link":{
+						"typography": {
+							"textDecoration":"none"
+						}
+					}
 				}
 			},
 			"core/post-terms": {
