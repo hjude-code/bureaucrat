@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "section-Rule-H-Btm",
+	"title": "Rule H Btm",
+	"blockTypes": [
+		"core/group",
+		"core/columns",
+		"core/column"
+	],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
+		"border": {
+			"color":"var:preset|color|contrast",
+			"style":"solid",
+			"width":"0px 0px 2px 0px"
+		},
+		"spacing": {
+			"padding": {
+				"bottom":"var(--wp--preset--spacing--100)"
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "section-Rule-H-TpBtm",
+	"title": "Rule H TpBtm",
+	"blockTypes": [
+		"core/group",
+		"core/columns",
+		"core/column"
+	],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
+		"border": {
+			"color":"var:preset|color|contrast",
+			"style":"solid",
+			"width":"2px 0px 2px 0px"
+		},
+		"spacing": {
+			"padding": {
+				"top":"var(--wp--preset--spacing--100)",
+				"bottom":"var(--wp--preset--spacing--100)"
+			}
+		}
+	}
+}

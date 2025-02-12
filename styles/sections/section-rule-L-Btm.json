@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"slug": "section-solid-rule-bottom",
-	"title": "Solid Rule bottom",
+	"slug": "section-Rule-L-Btm",
+	"title": "Rule L Btm",
 	"blockTypes": [
 		"core/group",
 		"core/columns",
@@ -16,7 +16,7 @@
 		"border": {
 			"color":"var:preset|color|contrast",
 			"style":"solid",
-			"width":"0px 0px 2px 0px"
+			"width":"0px 0px 1px 0px"
 		},
 		"spacing": {
 			"padding": {
