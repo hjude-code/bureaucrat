@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "section-outlined-L",
+	"title": "outline L",
+	"blockTypes": [
+		"core/cover",
+		"core/group",
+		"core/details"
+	],
+	"styles": {
+		"border": {
+			"color":"var:preset|color|contrast",
+			"style":"solid",
+			"width":"1px"
+		},
+		"spacing": {
+			"padding": "var(--wp--preset--spacing--100)"
+		}
+	}
+}

@@ -1,16 +1,21 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"slug": "cover-outlined",
-	"title": "outlined",
+	"slug": "section-outlined-H",
+	"title": "outline H",
 	"blockTypes": [
-		"core/cover"
+		"core/cover",
+		"core/group",
+		"core/details"
 	],
 	"styles": {
 		"border": {
 			"color":"var:preset|color|contrast",
 			"style":"solid",
 			"width":"2px"
+		},
+		"spacing": {
+			"padding": "var(--wp--preset--spacing--100)"
 		}
 	}
 }
