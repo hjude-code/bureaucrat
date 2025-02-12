@@ -963,9 +963,10 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
-			"fontSize": "var(--wp--preset--font-size--regular)",
+			"fontSize": "var(--wp--preset--font-size--Regular)",
 			"fontStyle": "normal",
-			"fontWeight": "300",
+			"fontWeight": "400",
+			"letterSpacing": "0px",
 			"lineHeight": "1.5"
 		}
 	},
