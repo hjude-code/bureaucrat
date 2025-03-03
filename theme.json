@@ -978,6 +978,11 @@
 			"title": "Standard Header Navigation"
 		},
 		{
+			"area": "header",
+			"name": "header-page-title",
+			"title": "header page title"
+		},
+		{
 			"area": "uncategorized",
 			"name": "more case studies",
 			"title": "more-case-studies"
